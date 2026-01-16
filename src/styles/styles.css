@@ -1,0 +1,26 @@
+/* ESTILOS GENERALES QUE AFECTAN A TODA LA WEB*/
+/* src/styles/base.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        @apply bg-bg-light text-text font-bodyText m-0 p-0;
+    }
+    h1 {
+        font-size: 3rem;
+    }
+    h2 {
+        font-size: 2.25rem;
+    }
+    h3 {
+        font-size: 1.75rem;
+    }
+    h4 {
+        font-size: 1.25rem;
+    }
+    p {
+        font-size: 1rem;
+    }
+}
