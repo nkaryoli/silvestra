@@ -22,6 +22,13 @@ module.exports = {
                 'headerText': ["Playfair Display", "sans-serif"],
                 'bodyText': ["Inter", "sans-serif"],
             },
+            borderRadius: {
+                "DEFAULT": "0.25rem",
+                "sm": "0.25rem",
+                "md": "0.35rem",
+                "lg": "0.45rem",
+                "xl": "0.65rem",
+            },
         }
     }
 }
