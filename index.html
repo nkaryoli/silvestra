@@ -14,7 +14,37 @@
 	<link href="./build/output.css" rel="stylesheet">
 </head>
 
-<body class="min-h-screen w-full flex">
+<body class="min-h-screen w-full pt-16">
+	<header
+		class="w-full h-16 flex items-center justify-between px-6 lg:px-14 py-1 fixed top-0 z-50 bg-bg-dark/40 backdrop-blur-sm border-b border-border/30 shadow-lg shadow-bg-light">
+		<div class="w-full max-w-7xl flex items-center justify-between m-auto">
+			<a class="logo h-full flex items-center gap-1 -ml-2" href="/">
+				<div class="h-14 w-14"><img src="/src/assets/logo3.png" alt="logo" class="h-full"></div>
+				<p class="text-2xl font-headerText"><span class="text-3xl">S</span>ilvestra</p>
+			</a>
+			<button id="open-btn" onclick="openMenu()" aria-label="open sidebar" aria-expanded="false"
+				aria-controls="navbar" class="text-3xl select-none block lg:hidden">☰</button>
+			<nav id="navbar"
+				class="fixed right-0 top-0 w-64 lg:w-fit min-h-screen lg:min-h-fit lg:relative z-50 bg-bg-dark lg:bg-transparent transition-transform duration-300 translate-x-full lg:translate-x-0">
+				<ul
+					class="flex items-center justify-center flex-col lg:flex-row gap-7 lg:gap-3 font-bodyText pt-20 lg:pt-0 px-6 lg:px-0">
+					<li><button id="close-btn" onclick="closeMenu()" aria-label="close sidebar"
+							class="absolute top-6 right-6 text-xl block lg:hidden cursor-pointer z-50">✕</button></li>
+					<li><a href="/" class="active-link p-2 transition-all duration-300 hover:text-primary">Inicio</a></li>
+					<li><a href="/src/pages/servicios.html"
+							class="p-2 transition-all duration-300 hover:text-primary">Productos y Servicios</a></li>
+					<li><a href="/src/pages/sostenibilidad.html"
+							class="p-2 transition-all duration-300 hover:text-primary">Sostenibilidad</a></li>
+					<li><a href="/src/pages/sobreNosortros.html"
+							class="p-2 transition-all duration-300 hover:text-primary">Sobre nosotros</a></li>
+					<a href="/src/pages/sobreNosortros.html"
+						class="bg-primary min-w-[150px] cursor-pointer h-10 flex items-center justify-center text-primary-foreground font-bold tracking-wider rounded-sm text-sm uppercase transition-all hover:scale-[102%]">Contatar</a>
+				</ul>
+			</nav>
+		</div>
+		<div id="overlay" onclick="closeMenu()" aria-hidden="true"
+			class="hidden lg:hidden fixed inset-0 bg-black/50 z-40 transition-opacity duration-300"></div>
+	</header>
 	<div class="w-full max-w-5xl m-auto space-y-3 bg-card p-9 rounded-xl flex flex-col">
 		<div class="flex w-full">
 			<img src="/src/assets/logo.png" alt="logo" class="w-1/4 auto" />
@@ -39,6 +69,7 @@
 			<a href="/src/pages/sostenibilidad.html" class="bg-primary min-w-[180px] cursor-pointer h-11 px-8 flex items-center justify-center text-primary-foreground font-bold tracking-widest rounded-lg text-sm uppercase transition-all hover:translate-y-[-2px]">SOstenibilidad</a>
 		</div>
 	</div>
+	<script src="/src/javascript/index.js"></script>
 </body>
 
 </html>
