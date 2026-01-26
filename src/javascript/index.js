@@ -17,7 +17,7 @@ function updateNavbar(e) {
         navbar.setAttribute('inert', '');
     } else {
         navbar.removeAttribute('inert');
-        navbar.classList.add('-translate-x-full');
+        navbar.classList.add('translate-x-full');
         navbar.classList.remove('translate-x-0');
         overlay.classList.add('hidden');
     }

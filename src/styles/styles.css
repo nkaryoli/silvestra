@@ -23,4 +23,7 @@
     p {
         font-size: 1rem;
     }
+    a.active-link{
+        @apply text-primary
+    }
 }
