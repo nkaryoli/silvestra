@@ -14,9 +14,11 @@
 	<link href="./build/output.css" rel="stylesheet">
 </head>
 
-<body class="min-h-screen w-full pt-16">
+<body class="min-h-screen w-full overflow-x-hidden">
+	<!-- <header
+		class="w-full h-16 flex items-center justify-between px-6 lg:px-14 py-1 fixed top-0 z-50 bg-bg-dark/40 backdrop-blur-sm border-b border-border/30 shadow-lg shadow-bg-light"> -->
 	<header
-		class="w-full h-16 flex items-center justify-between px-6 lg:px-14 py-1 fixed top-0 z-50 bg-bg-dark/40 backdrop-blur-sm border-b border-border/30 shadow-lg shadow-bg-light">
+		class="w-full h-16 flex items-center justify-between px-6 lg:px-14 py-1 fixed top-0 right-0 left-0 z-50 bg-bg-light/20 backdrop-blur-md border-b border-border/30">
 		<div class="w-full max-w-7xl flex items-center justify-between m-auto">
 			<a class="logo h-full flex items-center gap-1 -ml-2" href="/">
 				<div class="h-14 w-14"><img src="/src/assets/logo3.png" alt="logo" class="h-full"></div>
@@ -45,6 +47,37 @@
 		<div id="overlay" onclick="closeMenu()" aria-hidden="true"
 			class="hidden lg:hidden fixed inset-0 bg-black/50 z-40 transition-opacity duration-300"></div>
 	</header>
+	<section class="w-full aspect-[2/1] max-h-screen min-h-[700px] p-9 bg-cover bg-center bg-no-repeat flex items-center justify-center" style="background-image: url('/src/assets/hero-bg.png'); ">
+		<div class="absolute inset-0 w-full aspect-[2/1] max-h-screen min-h-[700px] bg-gradient-to-b from-bg-dark via-black/10 to-bg-dark z-10"></div>
+		<div class="z-20 w-full max-w-5xl m-auto space-y-5">
+			<h1 class="font-headerText text-4xl lg:text-7xl font-black max-w-[18ch] leading-tight">Gestion Forestal Inteligente para un Futuro <span class="text-primary italic">Regenerativo</span></h1>
+			<p class="max-w-[50ch] text-white/80">Transformando la relación  entre la industria y la naturaleza a través de la innovación sontenible y la tecnología de precisión.</p>
+			<div class="flex flex-col max-w-xs sm:max-w-lg sm:flex-row gap-4 sm:gap-3">
+				<a href="/src/pages/servicios.html" class="bg-primary min-w-[180px] cursor-pointer h-11 px-8 flex items-center justify-center text-primary-foreground font-bold tracking-widest rounded-sm text-sm uppercase transition-all hover:translate-y-[-2px]">explorar servicios</a>
+				<a href="/src/pages/sostenibilidad.html" class="border border-foregroundy min-w-[180px] cursor-pointer h-11 px-8 flex items-center justify-center text-foreground font-bold tracking-widest rounded-sm text-sm uppercase transition-all hover:translate-y-[-2px] hover:bg-white/10">Nuestro modelo</a>
+			</div>
+		</div>
+	</section>
+	<section class="w-full py-16 bg-bg-dark">
+		<div class="w-full max-w-5xl m-auto flex justify-between">
+		<div class="flex flex-col">
+			<p class="uppercase text-text-light">Hectarias protegidas</p>
+			<p class="text-primary font-headerText font-bold text-3xl">15,000</p>
+		</div>
+		<div class="flex flex-col">
+			<p class="uppercase text-text-light">Carbono capturado</p>
+			<p class="text-primary font-headerText font-bold text-3xl">2.4M Ton</p>
+		</div>
+		<div class="flex flex-col">
+			<p class="uppercase text-text-light">Especies preservadas</p>
+			<p class="text-primary font-headerText font-bold text-3xl">120+</p>
+		</div>
+		<div class="flex flex-col">
+			<p class="uppercase text-text-light">impacto social</p>
+			<p class="text-primary font-headerText font-bold text-3xl">45 Com.</p>
+		</div></div>
+	</section>
+<!-- 	
 	<div class="w-full max-w-5xl m-auto space-y-3 bg-card p-9 rounded-xl flex flex-col">
 		<div class="flex w-full">
 			<img src="/src/assets/logo.png" alt="logo" class="w-1/4 auto" />
@@ -68,7 +101,7 @@
 			<a href="/src/pages/servicios.html" class="bg-primary min-w-[180px] cursor-pointer h-11 px-8 flex items-center justify-center text-primary-foreground font-bold tracking-widest rounded-md text-sm uppercase transition-all hover:translate-y-[-2px]">Productos y Servicios</a>
 			<a href="/src/pages/sostenibilidad.html" class="bg-primary min-w-[180px] cursor-pointer h-11 px-8 flex items-center justify-center text-primary-foreground font-bold tracking-widest rounded-lg text-sm uppercase transition-all hover:translate-y-[-2px]">SOstenibilidad</a>
 		</div>
-	</div>
+	</div> -->
 	<script src="/src/javascript/index.js"></script>
 </body>
 
