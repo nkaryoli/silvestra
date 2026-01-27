@@ -18,10 +18,10 @@
 	<!-- <header
 		class="w-full h-16 flex items-center justify-between px-6 lg:px-14 py-1 fixed top-0 z-50 bg-bg-dark/40 backdrop-blur-sm border-b border-border/30 shadow-lg shadow-bg-light"> -->
 	<header
-		class="w-full h-16 flex items-center justify-between px-6 lg:px-14 py-1 fixed top-0 right-0 left-0 z-50 bg-bg-light/20 backdrop-blur-md border-b border-border/30">
+		class="w-full h-16 flex items-center justify-between px-6 lg:px-14 py-1 fixed top-0 right-0 left-0 z-50 bg-bg-light/30 backdrop-blur-md border-b border-border/30">
 		<div class="w-full max-w-7xl flex items-center justify-between m-auto">
 			<a class="logo h-full flex items-center gap-1 -ml-2" href="/">
-				<div class="h-14 w-14"><img src="/silvestra/src/assets/logo3.png" alt="logo" class="h-full"></div>
+				<div class="h-14 w-14"><img src="./src/assets/logo3.png" alt="logo" class="h-full"></div>
 				<p class="text-2xl font-headerText"><span class="text-3xl">S</span>ilvestra</p>
 			</a>
 			<button id="open-btn" onclick="openMenu()" aria-label="open sidebar" aria-expanded="false"
@@ -34,14 +34,14 @@
 							class="absolute top-6 right-6 text-xl block lg:hidden cursor-pointer z-50">✕</button></li>
 					<li><a href="/" class="active-link p-2 transition-all duration-300 hover:text-primary">Inicio</a>
 					</li>
-					<li><a href="./src/pages/servicios.html"
+					<li><a href="../src/pages/servicios.html"
 							class="p-2 transition-all duration-300 hover:text-primary">Productos y Servicios</a></li>
-					<li><a href="./src/pages/sostenibilidad.html"
+					<li><a href="../src/pages/sostenibilidad.html"
 							class="p-2 transition-all duration-300 hover:text-primary">Sostenibilidad</a></li>
-					<li><a href="./src/pages/sobreNosortros.html"
+					<li><a href="../src/pages/sobreNosortros.html"
 							class="p-2 transition-all duration-300 hover:text-primary">Sobre nosotros</a></li>
-					<a href="./src/pages/sobreNosortros.html"
-						class="bg-primary min-w-[150px] cursor-pointer h-10 flex items-center justify-center text-primary-foreground font-bold tracking-wider rounded-sm text-sm uppercase transition-all hover:scale-[102%]">Contatar</a>
+					<a href="../src/pages/sobreNosortros.html"
+						class="bg-primary min-w-[150px] cursor-pointer h-10 flex items-center justify-center text-primary-foreground font-bold tracking-wider rounded-sm text-sm uppercase transition-all hover:scale-[102%] shadow-lg shadow-bg-light/50">Contatar</a>
 				</ul>
 			</nav>
 		</div>
@@ -89,16 +89,16 @@
 			</div>
 		</div>
 	</section>
-	<section class="w-full py-32">
-		<div class="w-full max-w-5xl m-auto grid grid-cols-2 gap-36">
-			<div class="relative">
+	<section class="w-full py-32 px-9">
+		<div class="w-full max-w-5xl m-auto grid grid-cols-1 lg:grid-cols-2 gap-9 lg:gap-36">
+			<div class="">
 				<span class="text-primary font-medium">NUESTRA MISIÓN</span>
-				<h2 class="font-headerText leading-tight text-semibold mt-3">Liderando la transición hacia una economia
+				<h2 class="font-headerText leading-tight text-semibold mt-3 max-w-[30ch]">Liderando la transición hacia
+					una economia
 					circular forstal.</h2>
-				<p class="my-6 text-text-light">No solo extraemos recursos; diseñamos ecosistemas que prosperan. Nuestra
-					metodología
-					integra tecnología de silvicultura para garantizar que cada árbol plantado constituya a la
-					resilencia climática global.</p>
+				<p class="my-6 text-text-light max-w-[65ch]">No solo extraemos recursos; diseñamos ecosistemas que
+					prosperan. Nuestra metodología integra tecnología de silvicultura para garantizar que cada plantado
+					constituya a la resilencia climática global.</p>
 				<div class="flex gap-6">
 					<article class="space-y-2">
 						<span class="text-primary block ">
@@ -116,7 +116,8 @@
 								<path d="m13.378 9.633 4.096 1.098 1.097-4.096" />
 							</svg></span>
 						<h4 class="font-semibold">Ciclocerrado</h4>
-						<p class="text-sm text-text-light">Mapeo 3D de alta precisión para inventarios dinámicos.
+						<p class="text-sm text-text-light max-w-72">Mapeo 3D de alta precisión para inventarios
+							dinámicos.
 						</p>
 					</article>
 					<article class="space-y-2">
@@ -135,17 +136,21 @@
 								<path d="m13.378 9.633 4.096 1.098 1.097-4.096" />
 							</svg></span>
 						<h4 class="font-semibold">Tecnología LiDAR</h4>
-						<p class="text-sm text-text-light">Minimizamos desperdicios transformando biomasa de energía.
+						<p class="text-sm text-text-light max-w-72">Minimizamos desperdicios transformando biomasa de
+							energía.
 						</p>
 					</article>
 				</div>
-				<div class="absolute border border-border w-60 h-56 -right-72 -bottom-24 bg-bg-light rounded-sm">
 
-				</div>
 
 			</div>
-			<div class="border border-border rounded-sm overflow-hidden">
-				<img src="/src/assets/mision.png" alt="" class="w-full h-full">
+			<div class="relative rounded-sm h-full sm:max-w-[500px] flex flex-col-reverse gap-6">
+				<img src="../src/assets/mision.png" alt="" class="w-full h-full object-cover border border-primary/20 rounded-sm ">
+				<div
+					class="hidden lg:flex lg:absolute border border-primary/20 w-60 h-60 -left-28 -bottom-16 bg-bg-light rounded-sm p-6 lg:p-9 justify-center">
+					<p class="font-headerText italic text-xl font-medium tracking-wide">"La naturaleza no es una mercancía, es nuestra
+						infraestructura vital."</p>
+				</div>
 			</div>
 		</div>
 	</section>
@@ -183,15 +188,15 @@
 							<a href="/" class="active-link transition-all duration-300 hover:text-primary">Inicio</a>
 						</li>
 						<li>
-							<a href="/src/pages/servicios.html"
+							<a href="./src/pages/servicios.html"
 								class="transition-all duration-300 hover:text-primary">Productos y Servicios</a>
 						</li>
 						<li>
-							<a href="/src/pages/sostenibilidad.html"
+							<a href="./src/pages/sostenibilidad.html"
 								class="transition-all duration-300 hover:text-primary">Sostenibilidad</a>
 						</li>
 						<li>
-							<a href="/src/pages/sobreNosortros.html"
+							<a href="./src/pages/sobreNosortros.html"
 								class="transition-all duration-300 hover:text-primary">Sobre nosotros</a>
 						</li>
 					</ul>
