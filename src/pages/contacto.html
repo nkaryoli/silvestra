@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Silvestra - Contacto</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+    <link href="../../build/output.css" rel="stylesheet">
+</head>
+
+<body class="bg-bg-dark text-text font-bodyText min-h-screen">
+
+    <section
+        class="relative w-full min-h-[600px] md:min-h-[80vh] bg-bg-dark flex items-center justify-center overflow-hidden">
+        <div class="relative z-20 w-full max-w-5xl mx-auto px-6 py-24 text-center">
+            <div
+                class="inline-block py-10 px-8 md:px-16 rounded-xl bg-radial-gradient from-bg-dark/80 via-bg-dark/40 to-transparent">
+                <span
+                    class="text-primary font-bold uppercase tracking-[0.4em] text-[10px] md:text-xs mb-6 block drop-shadow-md">
+                    Atención Directa
+                </span>
+                <h1
+                    class="font-headerText text-6xl md:text-8xl font-bold text-white leading-tight mb-6 drop-shadow-[0_4px_4px_rgba(0,0,0,0.8)]">
+                    Contacto <span class="italic text-primary">Silvestra</span>
+                </h1>
+                <p class="text-text text-lg md:text-xl max-w-2xl mx-auto leading-relaxed drop-shadow-md font-medium">
+                    Gestión forestal sostenible desde el corazón de Falset, Tarragona.
+                </p>
+            </div>
+        </div>
+
+        <div class="absolute inset-0 w-full h-full z-10">
+            <img src="../assets/madera_contacto.jpg" alt="Bosques de Silvestra"
+                class="w-full h-full object-cover object-center md:object-[center_30%] brightness-[0.25] contrast-[1.1] scale-105">
+            <div class="absolute inset-0 bg-bg-dark/30"></div>
+            <div class="absolute inset-0 bg-gradient-to-b from-bg-dark via-transparent to-bg-dark"></div>
+        </div>
+    </section>
+    <main class="bg-bg-dark py-20 px-6">
+        <div class="max-w-5xl mx-auto space-y-24">
+
+            <section class="grid lg:grid-cols-2 gap-16 items-stretch">
+                <div class="bg-card p-10 rounded-xl border border-border/20 shadow-2xl">
+                    <h2 class="font-headerText text-4xl font-bold text-text mb-2">Conectemos</h2>
+                    <p class="text-text-light text-sm mb-8">Cuéntanos cómo podemos colaborar o en qué podemos ayudarte.
+                    </p>
+
+                    <form action="https://api.web3forms.com/submit" method="POST" class="space-y-5">
+                        <input type="hidden" name="access_key" value="fa57e076-dacb-4797-ad68-3cf882d4bd34">
+
+                        <div class="grid md:grid-cols-2 gap-5">
+                            <div class="space-y-2">
+                                <label
+                                    class="text-[10px] uppercase tracking-widest text-primary font-bold">Nombre</label>
+                                <input type="text" name="name" required placeholder="Tu nombre"
+                                    class="w-full bg-bg-dark border border-border/40 rounded-lg p-3 text-text placeholder:text-text-light/30 focus:outline-none focus:border-primary transition-colors">
+                            </div>
+                            <div class="space-y-2">
+                                <label
+                                    class="text-[10px] uppercase tracking-widest text-primary font-bold">Email</label>
+                                <input type="email" name="email" required placeholder="hola@ejemplo.com"
+                                    class="w-full bg-bg-dark border border-border/40 rounded-lg p-3 text-text placeholder:text-text-light/30 focus:outline-none focus:border-primary transition-colors">
+                            </div>
+                        </div>
+
+                        <div class="space-y-2">
+                            <label class="text-[10px] uppercase tracking-widest text-primary font-bold">Motivo de
+                                consulta</label>
+                            <div class="relative">
+                                <select name="subject" required
+                                    class="w-full bg-bg-dark border border-border/40 rounded-lg p-3 text-text-light/50 focus:outline-none focus:border-primary transition-colors appearance-none cursor-pointer invalid:text-text-light/50"
+                                    onchange="this.classList.remove('text-text-light/50'); this.classList.add('text-primary', 'font-bold')">
+                                    <option value="" disabled selected>Selecciona una opción...</option>
+                                    <option value="presupuesto" class="bg-bg-dark text-white font-normal">Presupuesto de
+                                        madera certificada</option>
+                                    <option value="visita" class="bg-bg-dark text-white font-normal">Reserva de visita
+                                        guiada (Falset)</option>
+                                    <option value="gestion" class="bg-bg-dark text-white font-normal">Gestión de fincas
+                                        forestales</option>
+                                    <option value="arquitectura" class="bg-bg-dark text-white font-normal">Colaboración
+                                        para arquitectura/bioconstrucción</option>
+                                    <option value="otros" class="bg-bg-dark text-white font-normal">Otras consultas
+                                        generales</option>
+                                </select>
+                                <div
+                                    class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-3 text-text-light/40">
+                                    <svg class="h-4 w-4 fill-current" viewBox="0 0 20 20">
+                                        <path
+                                            d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="space-y-2">
+                            <label class="text-[10px] uppercase tracking-widest text-primary font-bold">Tu
+                                Mensaje</label>
+                            <textarea name="message" required rows="4" placeholder="¿En qué estás pensando?"
+                                class="w-full bg-bg-dark border border-border/40 rounded-lg p-3 text-text placeholder:text-text-light/30 focus:outline-none focus:border-primary transition-colors"></textarea>
+                        </div>
+
+                        <div class="flex items-start gap-3 py-2">
+                            <div class="flex items-center h-5">
+                                <input id="privacy" name="privacy" type="checkbox" required
+                                    class="w-4 h-4 bg-bg-dark border-border/40 rounded text-primary focus:ring-primary focus:ring-offset-bg-dark cursor-pointer">
+                            </div>
+                            <label for="privacy" class="text-xs text-text-light/70 leading-tight cursor-pointer">
+                                He leído y acepto la <a href="/politica-privacidad"
+                                    class="text-primary hover:underline transition-all">política de privacidad</a>.
+                            </label>
+                        </div>
+
+                        <button type="submit"
+                            class="w-full bg-primary text-white font-bold py-4 rounded-lg uppercase tracking-[0.2em] hover:brightness-110 active:scale-[0.98] transition-all shadow-lg shadow-primary/20 mt-2">
+                            Enviar Mensaje
+                        </button>
+                    </form>
+                </div>
+
+                <div class="flex flex-col justify-between py-4">
+                    <div class="space-y-8">
+                        <div class="space-y-4">
+                            <h3 class="font-headerText text-4xl font-bold text-text italic">Visitas en el Territorio
+                            </h3>
+                            <p class="text-text-light leading-relaxed text-lg">
+                                Creemos en la transparencia. Por eso, abrimos las puertas de nuestras explotaciones en
+                                <span class="text-white">Falset</span> para que compruebes nuestro compromiso con la
+                                biodiversidad de Tarragona.
+                            </p>
+                        </div>
+
+                        <div class="grid grid-cols-2 gap-6 pt-4">
+                            <div class="space-y-2">
+                                <h4 class="text-primary font-bold uppercase text-[10px] tracking-widest">Atención
+                                    Telefónica</h4>
+                                <p class="text-text text-sm">+34 977 123 456</p>
+                                <p class="text-text-light text-[10px]">Lunes a Viernes, 8h — 18h</p>
+                            </div>
+                            <div class="space-y-2">
+                                <h4 class="text-primary font-bold uppercase text-[10px] tracking-widest">Sede Central
+                                </h4>
+                                <p class="text-text text-sm">Carrer del Bosc, 47</p>
+                                <p class="text-text-light text-[10px]">43730 Falset, Tarragona</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="pt-8 border-t border-border/20">
+                        <h4 class="text-text-light font-bold uppercase tracking-widest text-[10px]  mb-4">
+                            Comunidad Silvestra
+                        </h4>
+                        <div class="flex gap-6">
+                            <a href="#" class="text-white hover:text-primary transition-colors" aria-label="Instagram">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
+                                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                                    <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
+                                </svg>
+                            </a>
+
+                            <a href="#" class="text-white hover:text-primary transition-colors" aria-label="LinkedIn">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path
+                                        d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+                                    <rect width="4" height="12" x="2" y="9" />
+                                    <circle cx="4" cy="4" r="2" />
+                                </svg>
+                            </a>
+
+                            <a href="#" class="text-white hover:text-primary transition-colors" aria-label="Facebook">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="py-20 border-t border-border/10">
+                <div class="flex flex-col md:flex-row justify-between items-start md:items-end mb-8 gap-4">
+                    <div class="text-left">
+                        <span class="text-primary font-bold text-[10px] uppercase tracking-[0.3em] mb-2 block">Ubicación
+                            Física</span>
+                        <h3 class="font-headerText text-5xl font-bold text-text italic">Encuéntranos</h3>
+                    </div>
+
+                    <div class="text-left md:text-right">
+                        <p class="text-text font-bold">Falset, Priorat</p>
+                        <p class="text-text-light text-xs">Tarragona, Cataluña</p>
+                    </div>
+                </div>
+
+                <div
+                    class="w-full h-[450px] rounded-xl overflow-hidden grayscale contrast-[1.1] invert-[0.9] opacity-80 border border-border/20 shadow-2xl">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6009.051524674312!2d0.815667791860782!3d41.14487756468408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a130cf9e6e860d%3A0x412f47a8e9ea991f!2s43730%20Falset%2C%20Tarragona!5e0!3m2!1ses!2ses!4v1769522634998!5m2!1ses!2ses"
+                        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </section>
+
+            <section class="py-10 max-w-4xl mx-auto">
+                <div class="text-center mb-16 space-y-4">
+                    <h2 class="font-headerText text-5xl font-bold text-text">Preguntas <span
+                            class="italic text-primary">Frecuentes</span></h2>
+                    <div class="h-1 w-20 bg-primary mx-auto rounded-full"></div>
+                </div>
+
+                <div class="space-y-6">
+                    <details
+                        class="group bg-card/40 rounded-xl border border-border/10 transition-all duration-300 hover:border-primary/30">
+                        <summary
+                            class="p-6 text-white font-bold cursor-pointer list-none flex justify-between items-center">
+                            <span>¿Qué significa que la madera sea certificada FSC?</span>
+                            <span class="text-primary text-2xl transition-transform group-open:rotate-45">+</span>
+                        </summary>
+                        <div class="px-6 pb-8 text-text-light text-sm leading-relaxed border-t border-border/5 pt-4">
+                            Significa que proviene de bosques gestionados de forma responsable, donde se protege la
+                            biodiversidad, se respetan los derechos de trabajadores y comunidades locales, y se
+                            garantiza la viabilidad económica a largo plazo.
+                        </div>
+                    </details>
+
+                    <details
+                        class="group bg-card/40 rounded-xl border border-border/10 transition-all duration-300 hover:border-primary/30">
+                        <summary
+                            class="p-6 text-white font-bold cursor-pointer list-none flex justify-between items-center">
+                            <span>¿Cómo garantizan la reforestación?</span>
+                            <span class="text-primary text-2xl transition-transform group-open:rotate-45">+</span>
+                        </summary>
+                        <div class="px-6 pb-8 text-text-light text-sm leading-relaxed border-t border-border/5 pt-4">
+                            Cada tala se registra y se plantan <span class="text-white font-semibold">tres árboles por
+                                cada uno extraído</span>. Realizamos un seguimiento fotográfico y mediante GPS de cada
+                            plantación, con informes anuales verificados por auditoría externa.
+                        </div>
+                    </details>
+
+                    <details
+                        class="group bg-card/40 rounded-xl border border-border/10 transition-all duration-300 hover:border-primary/30">
+                        <summary
+                            class="p-6 text-white font-bold cursor-pointer list-none flex justify-between items-center">
+                            <span>¿Puedo visitar las explotaciones forestales?</span>
+                            <span class="text-primary text-2xl transition-transform group-open:rotate-45">+</span>
+                        </summary>
+                        <div class="px-6 pb-8 text-text-light text-sm leading-relaxed border-t border-border/5 pt-4">
+                            Sí, organizamos visitas guiadas previa reserva. Es una actividad ideal para estudiantes,
+                            profesionales del sector y cualquier persona interesada en la gestión forestal sostenible y
+                            el ecosistema del Priorat.
+                        </div>
+                    </details>
+
+                    <details
+                        class="group bg-card/40 rounded-xl border border-border/10 transition-all duration-300 hover:border-primary/30">
+                        <summary
+                            class="p-6 text-white font-bold cursor-pointer list-none flex justify-between items-center">
+                            <span>¿Entregan fuera de Cataluña?</span>
+                            <span class="text-primary text-2xl transition-transform group-open:rotate-45">+</span>
+                        </summary>
+                        <div class="px-6 pb-8 text-text-light text-sm leading-relaxed border-t border-border/5 pt-4">
+                            Priorizamos la venta local para reducir nuestra huella de transporte, pero realizamos
+                            entregas en toda España para proyectos de construcción sostenible que requieran madera
+                            certificada de alta calidad.
+                        </div>
+                    </details>
+
+                    <details
+                        class="group bg-card/40 rounded-xl border border-border/10 transition-all duration-300 hover:border-primary/30">
+                        <summary
+                            class="p-6 text-white font-bold cursor-pointer list-none flex justify-between items-center">
+                            <span>¿Cómo sé que la madera que compro es realmente de Silvestra?</span>
+                            <span class="text-primary text-2xl transition-transform group-open:rotate-45">+</span>
+                        </summary>
+                        <div class="px-6 pb-8 text-text-light text-sm leading-relaxed border-t border-border/5 pt-4">
+                            Cada producto lleva un código de trazabilidad único que permite verificar su origen exacto
+                            en nuestras fincas. Además, emitimos certificados oficiales FSC/PEFC para cada pedido
+                            realizado.
+                        </div>
+                    </details>
+
+                    <details
+                        class="group bg-card/40 rounded-xl border border-border/10 transition-all duration-300 hover:border-primary/30">
+                        <summary
+                            class="p-6 text-white font-bold cursor-pointer list-none flex justify-between items-center">
+                            <span>¿Ofrecen asesoramiento técnico para arquitectos?</span>
+                            <span class="text-primary text-2xl transition-transform group-open:rotate-45">+</span>
+                        </summary>
+                        <div class="px-6 pb-8 text-text-light text-sm leading-relaxed border-t border-border/5 pt-4">
+                            Disponemos de un departamento de ingeniería forestal que colabora con estudios de
+                            arquitectura para seleccionar las especies y tratamientos más adecuados según la normativa
+                            de bioconstrucción vigente.
+                        </div>
+                    </details>
+                </div>
+            </section>
+        </div>
+    </main>
+
+
+</body>
+
+</html>
