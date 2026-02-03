@@ -64,22 +64,26 @@
 			class="hidden lg:hidden fixed inset-0 bg-black/50 z-40 transition-opacity duration-300"></div>
 	</header>
 
-	<section
-		class="relative overflow-hidden w-full max-h-screen min-h-[700px] p-9 bg-cover bg-center bg-no-repeat flex items-center justify-center"
-		style="background-image: url(&quot;../assets/troncos2.png&quot;)">
-		<div
-			class="absolute inset-0 w-full  max-h-screen min-h-[500px] bg-gradient-to-b from-bg-dark via-black/10 to-bg-dark z-10">
-		</div>
-		<div class="z-20 w-full max-w-5xl m-auto space-y-5">
-			<h1 class="font-headerText text-4xl lg:text-7xl font-black max-w-[18ch] leading-tight">
+	<section class="relative w-full h-[70vh] md:h-[8vh] bg-bg-dark flex flex-col pt-16">
+		<div class="relative z-20 w-full max-w-5xl mx-auto px-6 pt-20 md:pt-32 text-center flex flex-col items-center">
+			<span class="text-primary font-bold uppercase tracking-[0.4em] text-xs md:text-sm mb-4 block">
+				Gestión Forestal Responsable
+			</span>
+			<h1 class="font-headerText text-6xl md:text-9xl font-black text-white leading-tight mb-6 drop-shadow-2xl">
+				<!--font-headerText text-6xl md:text-9xl font-bold text-white leading-tight mb-6 drop-shadow-2xl-->
 				Equilibrio <span class="italic text-primary">Perpetuo</span>
 			</h1>
-			<p class="max-w-[50ch] text-white/80">
+			<p class="text-lg md:text-xl text-white/90 font-bodyText max-w-3xl mx-auto leading-relaxed drop-shadow-lg ">
 				No solo extraemos madera; cultivamos el futuro de los ecosistemas
 				mediterráneos mediante una gestión forestal regenerativa y
 				transparente.
 			</p>
+		</div>
 
+		<div class="absolute inset-0 w-full h-full z-10  ">
+			<img src="../assets/troncos2.png" alt="Gestión de madera sostenible"
+				class="w-full h-full object-cover brightness-[0.5]">
+			<div class="absolute inset-0 bg-gradient-to-t from-bg-dark via-transparent to-bg-dark/40"></div>
 		</div>
 	</section>
 
@@ -104,8 +108,8 @@
 		</section>
 
 		<section class="bg-card/20 py-24 border-y border-border/10">
-			<div class="max-w-5xl mx-auto px-6 text-center">
-				<h2 class="font-headerText text-4xl font-bold text-white mb-16">
+			<div class="max-w-5xl mx-auto px-6 text-center mb-32">
+				<h2 class="font-headerText text-4xl font-bold text-white max-w-7xl mx-auto px-6 py-12 mb-12 ">
 					Impacto en Cifras
 				</h2>
 				<div class="grid md:grid-cols-3 gap-12">
@@ -140,52 +144,86 @@
 			</div>
 		</section>
 
+	
+
+
 		<section class="max-w-7xl mx-auto px-6 py-24">
-			<div class="text-center mb-16">
-				<h2 class="font-headerText text-4xl font-bold text-white mb-4">
-					Innovación Sostenible
-				</h2>
-				<p class="text-text-light max-w-2xl mx-auto">
-					Utilizamos herramientas de vanguardia para asegurar que nuestra
-					intervención sea lo más quirúrgica y respetuosa posible.
-				</p>
-			</div>
-			<div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-				<div class="bg-card p-8 rounded-2xl border border-border/20 hover:border-primary/50 transition-all">
-					<div class="h-12 w-12 bg-primary/10 rounded-full flex items-center justify-center mb-6">
-						🛰️
-					</div>
-					<h3 class="text-xl font-bold text-white mb-3">Satélites LiDAR</h3>
-					<p class="text-text-light text-sm leading-relaxed">
-						Mapeamos la densidad foliar en 3D para identificar zonas con
-						estrés hídrico o riesgo de incendio antes de que ocurran.
-					</p>
-				</div>
-				<div class="bg-card p-8 rounded-2xl border border-border/20 hover:border-primary/50 transition-all">
-					<div class="h-12 w-12 bg-primary/10 rounded-full flex items-center justify-center mb-6">
-						🚜
-					</div>
-					<h3 class="text-xl font-bold text-white mb-3">
-						Maquinaria de Baja Presión
-					</h3>
-					<p class="text-text-light text-sm leading-relaxed">
-						Nuestros vehículos utilizan neumáticos especiales que minimizan la
-						compactación del suelo, protegiendo las raíces y micelios.
-					</p>
-				</div>
-				<div class="bg-card p-8 rounded-2xl border border-border/20 hover:border-primary/50 transition-all">
-					<div class="h-12 w-12 bg-primary/10 rounded-full flex items-center justify-center mb-6">
-						🌿
-					</div>
-					<h3 class="text-xl font-bold text-white mb-3">IA en Selección</h3>
-					<p class="text-text-light text-sm leading-relaxed">
-						Algoritmos de visión artificial nos ayudan a seleccionar qué
-						ejemplares deben ser retirados para optimizar la salud del
-						conjunto.
-					</p>
-				</div>
-			</div>
-		</section>
+  <div class="text-center mb-20">
+    <h2 class="font-headerText text-4xl md:text-5xl font-bold text-white mb-12">
+      <span class="text-white">Compromiso Vital</span>
+    </h2>
+    
+  </div>
+
+  <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
+    
+    <div class="group bg-card rounded-2xl overflow-hidden border border-border/20 hover:border-primary/50 transition-all">
+      <img
+        src="../assets/bosc.png"
+        alt=""
+        class="h-48 w-full object-cover group-hover:scale-105 transition-transform duration-500"
+      />
+      <div class="p-8">
+        <h3 class="text-xl font-bold text-white mb-3">Por cada árbol cosechado, <span class="italic">un nuevo legado comienza</span></h3>
+        <p class="text-text-light text-sm leading-relaxed">
+          Nuestra filosofía se basa en la **reposición garantizada**. No solo nos aseguramos de que el
+		bosque se regenere naturalmente; intervenimos activamente plantando especies autóctonas que
+		fortalecen la biodiversidad y aseguran que la masa forestal de Tarragona crezca en salud y
+		extensión.
+        </p>
+      </div>
+    </div>
+
+    <div class="group bg-card rounded-2xl overflow-hidden border border-border/20 hover:border-primary/50 transition-all">
+      <img
+        src="../assets/caido.jpeg"
+        alt=""
+        class="h-48 w-full object-cover group-hover:scale-105 transition-transform duration-500"
+      />
+      <div class="p-8">
+        <h3 class="text-xl font-bold text-white mb-3">
+          RIL – Reduced Impact Logging
+        </h3>
+        <p class="text-text-light text-sm leading-relaxed">
+          La tala de impacto reducido controla la dirrecion de la caida de
+		  los arboles, minimizar hasta 50% de daño a árboles vecinos. 
+        </p>
+      </div>
+    </div>
+
+
+    <div class="group bg-card rounded-2xl overflow-hidden border border-border/20 hover:border-primary/50 transition-all">
+      <img
+        src="../assets/tocon.jpeg"
+        alt=""
+        class="h-48 w-full object-cover group-hover:scale-105 transition-transform duration-500"
+      />
+      <div class="p-8">
+        <h3 class="text-xl font-bold text-white mb-3">Tala en ciclos de rotación largos</h3>
+        <p class="text-text-light text-sm leading-relaxed">
+          No se tala continuamente la misma zona, se deja entre 20 y 40 dias sin intervencion en la zona
+		  para dejar tiempo suficiente para la regeneración natural. Esto mantiene el bosque productivo y vivo a largo plazo.
+        </p>
+      </div>
+    </div>
+
+    <div class="group bg-card rounded-2xl overflow-hidden border border-border/20 hover:border-primary/50 transition-all">
+      <img
+        src="../assets/conglomerado.jpg"
+        alt=""
+        class="h-48 w-full object-cover group-hover:scale-105 transition-transform duration-500"
+      />
+      <div class="p-8">
+        <h3 class="text-xl font-bold text-white mb-3">Aprovechamiento integral del árbol</h3>
+        <p class="text-text-light text-sm leading-relaxed">
+          Nada se desperdicia. Los materiales que no sirven como madera estructural como ramas, 
+		  astillas, trozos irregulares y serrin, son vendidos para la creacion de madera conglomerada.
+        </p>
+      </div>
+    </div>
+
+</section>
+
 
 		<section class="max-w-5xl mx-auto px-6">
 			<div class="bg-primary p-12 rounded-[2.5rem] flex flex-col md:flex-row items-center justify-between gap-8">
