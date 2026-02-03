@@ -15,10 +15,9 @@
 </head>
 
 <body class="min-h-screen w-full overflow-x-hidden">
-	<!-- <header
-		class="w-full h-16 flex items-center justify-between px-6 lg:px-14 py-1 fixed top-0 z-50 bg-bg-dark/40 backdrop-blur-sm border-b border-border/30 shadow-lg shadow-bg-light"> -->
+	<!-- NAVBAR -->
 	<header
-		class="w-full h-16 flex items-center justify-between px-6 lg:px-14 py-1 fixed top-0 right-0 left-0 z-50 bg-bg-light/20 backdrop-blur-md border-b border-border/30">
+		class="w-full h-16 flex items-center justify-between px-6 lg:px-14 py-1 fixed top-0 right-0 left-0 z-50 bg-bg-light/30 backdrop-blur-md border-b border-border/30">
 		<div class="w-full max-w-7xl flex items-center justify-between m-auto">
 			<a class="logo h-full flex items-center gap-1 -ml-2" href="/silvestra/">
 				<div class="h-14 w-14"><img src="/silvestra/src/assets/logo3.png" alt="logo" class="h-full"></div>
@@ -49,6 +48,7 @@
 		<div id="overlay" onclick="closeMenu()" aria-hidden="true"
 			class="hidden lg:hidden fixed inset-0 bg-black/50 z-40 transition-opacity duration-300"></div>
 	</header>
+	<!-- HERO SECTION -->
 	<section
 		class="w-full aspect-[2/1] max-h-screen min-h-[700px] p-9 bg-cover bg-center bg-no-repeat flex items-center justify-center"
 		style="background-image: url('./src/assets/hero-bg.png'); ">
@@ -70,6 +70,7 @@
 			</div>
 		</div>
 	</section>
+	<!-- STATS SECTION -->
 	<section class="w-full py-16 bg-bg-dark">
 		<div class="w-full max-w-5xl m-auto flex justify-between">
 			<div class="flex flex-col">
@@ -90,16 +91,17 @@
 			</div>
 		</div>
 	</section>
-	<section class="w-full py-32">
-		<div class="w-full max-w-5xl m-auto grid grid-cols-2 gap-36">
-			<div class="relative">
+	<!-- MISION SECTION -->
+	<section class="w-full py-32 px-9">
+		<div class="w-full max-w-5xl m-auto grid grid-cols-1 lg:grid-cols-2 gap-9 lg:gap-36">
+			<div class="">
 				<span class="text-primary font-medium">NUESTRA MISIÓN</span>
-				<h2 class="font-headerText leading-tight text-semibold mt-3">Liderando la transición hacia una economia
+				<h2 class="font-headerText leading-tight text-semibold mt-3 max-w-[30ch]">Liderando la transición hacia
+					una economia
 					circular forstal.</h2>
-				<p class="my-6 text-text-light">No solo extraemos recursos; diseñamos ecosistemas que prosperan. Nuestra
-					metodología
-					integra tecnología de silvicultura para garantizar que cada árbol plantado constituya a la
-					resilencia climática global.</p>
+				<p class="my-6 text-text-light max-w-[65ch]">No solo extraemos recursos; diseñamos ecosistemas que
+					prosperan. Nuestra metodología integra tecnología de silvicultura para garantizar que cada plantado
+					constituya a la resilencia climática global.</p>
 				<div class="flex gap-6">
 					<article class="space-y-2">
 						<span class="text-primary block ">
@@ -117,7 +119,8 @@
 								<path d="m13.378 9.633 4.096 1.098 1.097-4.096" />
 							</svg></span>
 						<h4 class="font-semibold">Ciclocerrado</h4>
-						<p class="text-sm text-text-light">Mapeo 3D de alta precisión para inventarios dinámicos.
+						<p class="text-sm text-text-light max-w-72">Mapeo 3D de alta precisión para inventarios
+							dinámicos.
 						</p>
 					</article>
 					<article class="space-y-2">
@@ -136,20 +139,83 @@
 								<path d="m13.378 9.633 4.096 1.098 1.097-4.096" />
 							</svg></span>
 						<h4 class="font-semibold">Tecnología LiDAR</h4>
-						<p class="text-sm text-text-light">Minimizamos desperdicios transformando biomasa de energía.
+						<p class="text-sm text-text-light max-w-72">Minimizamos desperdicios transformando biomasa de
+							energía.
 						</p>
 					</article>
 				</div>
-				<div class="absolute border border-border w-60 h-56 -right-72 -bottom-24 bg-bg-light rounded-sm">
 
-				</div>
 
 			</div>
-			<div class="border border-border rounded-sm overflow-hidden">
-				<img src="/silvestra/src/assets/mision.png" alt="" class="w-full h-full">
+			<div class="relative rounded-sm h-full sm:max-w-[500px] flex flex-col-reverse gap-6">
+				<img src="/silvestra/src/assets/mision.png" alt=""
+					class="w-full h-full object-cover border border-primary/20 rounded-sm ">
+				<div
+					class="hidden lg:flex lg:absolute border border-primary/20 w-60 h-60 -left-28 -bottom-16 bg-bg-light rounded-sm p-6 lg:p-9 justify-center">
+					<p class="font-headerText italic text-xl font-medium tracking-wide">"La naturaleza no es una
+						mercancía, es nuestra
+						infraestructura vital."</p>
+				</div>
 			</div>
 		</div>
 	</section>
+	<!-- IMPACT SECTION -->
+	<section class="w-full py-32 pt-0 px-9">
+		<div class="w-full max-w-5xl m-auto space-y-9">
+			<div class=" grid grid-cols-3 gap-6">
+				<h2 class="col-span-3 font-headerText text-3xl font-semibold">Áreas de Impacto</h2>
+				<p class="col-span-2 text-text-light max-w-[520px] text-lg">Explora cómo implementamos soluciones
+					regenerativas en todo el territorio.</p>
+				<button class="flex gap-3 text-primary justify-end"><a href="./src/pages/servicios.html"
+						class="uppercase font-bold tracking-wider"> VER
+						CATÁLAGO COMPLETO</a>
+					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+						stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"
+						class="lucide lucide-move-right-icon lucide-move-right">
+						<path d="M18 8L22 12L18 16" />
+						<path d="M2 12H22" />
+					</svg>
+				</button>
+			</div>
+			<div class="grid grid-cols-3 gap-9 w-full">
+				
+				<article class="relative overflow-hidden rounded-md group cursor-pointer h-96 ">
+					<div
+						class="absolute inset-0 bg-gradient-to-t from-bg-dark to-transparent z-20 flex flex-col justify-end p-6">
+						<span class="text-primary text-sm tracking-wide">RESTAURACIÓN</span>
+						<h4 class="font-headerText text-2xl font-bold tracking-wide py-2">Reforestación Nativa</h4>
+					</div>
+					<div class="h-full w-full overflow-hidden">
+						<img src="./src/assets/impact-card1.png" alt=""
+							class="h-full w-full object-cover transition-all duration-700 ease-in-out group-hover:scale-110">
+					</div>
+				</article>
+				<article class="relative overflow-hidden rounded-md group cursor-pointer">
+					<div
+						class="absolute inset-0 bg-gradient-to-t from-bg-dark to-transparent z-20 flex flex-col justify-end p-6 rounded-md">
+						<span class="text-primary text-sm tracking-wide">ENERGÍA</span>
+						<h4 class="font-headerText text-2xl font-bold tracking-wide py-2">Biomasa Sostenible</h4>
+					</div>
+					<div class="h-full w-full overflow-hidden">
+						<img src="./src/assets/impact-card2.png" alt=""
+							class="h-full w-full object-cover transition-all duration-700 ease-in-out group-hover:scale-110">
+					</div>
+				</article>
+				<article class="relative overflow-hidden rounded-md group cursor-pointer">
+					<div
+						class="absolute inset-0 bg-gradient-to-t from-bg-dark to-transparent z-20 flex flex-col justify-end p-6 rounded-md">
+						<span class="text-primary text-sm tracking-wide">CONSULTORÍA</span>
+						<h4 class="font-headerText text-2xl font-bold tracking-wide py-2">Bonos de Carbono</h4>
+					</div>
+					<div class="h-full w-full overflow-hidden">
+						<img src="./src/assets/impact-card3.png" alt=""
+							class="h-full w-full object-cover transition-all duration-700 ease-in-out group-hover:scale-110">
+					</div>
+				</article>
+			</div>
+		</div>
+	</section>
+	<!-- CONTACT SECTION -->
 	<section class="bg-primary w-full py-24 text-center px-9">
 		<div class="w-full max-w-5xl m-auto text-bg-dark space-y-9">
 			<h3 class="font-headerText text-3xl md:text-5xl font-semibold">¿Listo para formar parte de <br
@@ -165,8 +231,9 @@
 			</button>
 		</div>
 	</section>
+	<!-- FOOTER-->
 	<footer class="w-full bg-bg-dark py-14">
-		<div class="w-full max-w-5xl m-auto flex flex-col items-center gap-6 px-6 md:px-9">
+		<div class="w-full max-w-7xl m-auto flex flex-col items-center gap-6 px-6 md:px-9">
 			<div class="grid grid-cols-2 sm:grid-cols-3 xl:grid-cols-5 gap-9 text-sm w-full">
 				<div class="w-full col-span-2 sm:col-span-3 xl:col-span-2">
 					<a class="logo flex items-center gap-1 -ml-2 mb-3" href="/silvestra/">
@@ -268,31 +335,6 @@
 				derechos reservados</small>
 		</div>
 	</footer>
-	<!-- 	
-	<div class="w-full max-w-5xl m-auto space-y-3 bg-card p-9 rounded-xl flex flex-col">
-		<div class="flex w-full">
-			<img src="/src/assets/logo.png" alt="logo" class="w-1/4 auto" />
-			<img src="/src/assets/logo3.png" alt="logo" class="w-1/4 auto opacity-80" />
-			<img src="/src/assets/logo4.png" alt="logo" class="w-1/4 auto " />
-			<img src="/src/assets/logo5.png" alt="logo" class="w-1/4 auto" />
-		</div>
-		<div class="flex justify-between items-end">
-			<h1 class="font-bold font-headerText">Silvestra</h1>
-			<h2 class="font-bold font-headerText">Silvestra</h2>
-			<h3 class="font-bold font-headerText">Silvestra</h3>
-			<h4 class="font-bold font-headerText text-red">Silvestra</h4>
-		</div>
-		<p class="text-text-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-			incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-			laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-			esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
-			qui officia deserunt mollit anim id est laborum.</p>
-		<div class="flex gap-6">
-			<a href="/src/pages/sobreNosortros.html" class="bg-primary min-w-[180px] cursor-pointer h-11 px-8 flex items-center justify-center text-primary-foreground font-bold tracking-widest rounded-sm text-sm uppercase transition-all hover:translate-y-[-2px]">SOBRE NOSOTROS</a>
-			<a href="/src/pages/servicios.html" class="bg-primary min-w-[180px] cursor-pointer h-11 px-8 flex items-center justify-center text-primary-foreground font-bold tracking-widest rounded-md text-sm uppercase transition-all hover:translate-y-[-2px]">Productos y Servicios</a>
-			<a href="/src/pages/sostenibilidad.html" class="bg-primary min-w-[180px] cursor-pointer h-11 px-8 flex items-center justify-center text-primary-foreground font-bold tracking-widest rounded-lg text-sm uppercase transition-all hover:translate-y-[-2px]">SOstenibilidad</a>
-		</div>
-	</div> -->
 	<script src="/silvestra/src/javascript/index.js"></script>
 </body>
 
