@@ -1,0 +1,30 @@
+[33m16e0119[m[33m ([m[1;36mHEAD -> [m[1;32mdev[m[33m, [m[1;31morigin/dev[m[33m)[m fix: paths for github pages
+[33me3fafa5[m feat: add navbar to contact page
+[33maf99829[m fix paths in navbar
+[33m045e56c[m fix paths in navbar
+[33mea5324a[m Merge branch 'feat-victor-contacto' into dev
+[33m4b16713[m Merge branch 'feat-josep' into dev
+[33m744f948[m[33m ([m[1;31morigin/feat-josep[m[33m, [m[1;32mfeat-josep[m[33m)[m services page ready
+[33m27fd884[m[33m ([m[1;31morigin/feat-victor-contacto[m[33m, [m[1;32mfeat-victor-contacto[m[33m)[m fix: img + contacto.html
+[33m785057a[m fix: paths
+[33mb3fe85e[m feat: add navbar and footer
+[33m1e77e2f[m fix: merge confilcts
+[33m17a2612[m Merge branch 'feat-karyoli' into dev
+[33mf004449[m Merge branch 'feat-victor' into dev
+[33m7526993[m add img for mision section
+[33m3b2fd7d[m feat: add mision section
+[33m9d267f9[m guardado de imagenes y configurcion
+[33m485ce58[m modificacion Sobre-Nosotros
+[33ma97f204[m feat: add contact section
+[33m9880490[m feat: add footer
+[33m8845b00[m fix: responsive navbar translate when open
+[33mf17ccba[m feat: add hero-bg image
+[33m011d037[m feat: add hero section
+[33m159751b[m feat: add responsive navbar
+[33m39988ea[m feat: add responsive navbar
+[33m1549507[m[33m ([m[1;32mfeat-marina[m[33m)[m test 0
+[33mec6a3c7[m test
+[33m4466a4c[m test
+[33m43bc1f6[m[33m ([m[1;31morigin/main[m[33m, [m[1;32mmain[m[33m)[m feat: Configure custom border radius values in Tailwind and generate the updated CSS output.
+[33m97a979e[m feat: initial configuration and project arquitecture
+[33m6a3bd31[m first commit
