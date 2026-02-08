@@ -48,61 +48,68 @@
 		<div id="overlay" onclick="closeMenu()" aria-hidden="true"
 			class="hidden lg:hidden fixed inset-0 bg-black/50 z-40 transition-opacity duration-300"></div>
 	</header>
-	<!-- HERO SECTION -->
-	<section
-		class="w-full aspect-[2/1] max-h-screen min-h-[700px] p-9 bg-cover bg-center bg-no-repeat flex items-center justify-center"
-		style="background-image: url('./src/assets/hero-bg.png'); ">
-		<div
-			class="absolute inset-0 w-full aspect-[2/1] max-h-screen min-h-[700px] bg-gradient-to-b from-bg-dark via-black/10 to-bg-dark z-10">
-		</div>
-		<div class="z-20 w-full max-w-5xl m-auto space-y-5">
-			<h1 class="font-headerText text-4xl lg:text-7xl font-black max-w-[18ch] leading-tight">Gestion Forestal
-				Inteligente para un Futuro <span class="text-primary italic">Regenerativo</span></h1>
-			<p class="max-w-[50ch] text-white/80">Transformando la relación entre la industria y la naturaleza a través
-				de la innovación sontenible y la tecnología de precisión.</p>
-			<div class="flex flex-col max-w-xs sm:max-w-lg sm:flex-row gap-4 sm:gap-3">
-				<a href="/silvestra/src/pages/servicios.html"
-					class="bg-primary min-w-[180px] cursor-pointer h-11 px-8 flex items-center justify-center text-primary-foreground font-bold tracking-widest rounded-sm text-sm uppercase transition-all hover:translate-y-[-2px]">explorar
-					servicios</a>
-				<a href="/silvestra/src/pages/sostenibilidad.html"
-					class="border border-foregroundy min-w-[180px] cursor-pointer h-11 px-8 flex items-center justify-center text-foreground font-bold tracking-widest rounded-sm text-sm uppercase transition-all hover:translate-y-[-2px] hover:bg-white/10">Nuestro
-					modelo</a>
+	<main>
+		<!-- HERO SECTION -->
+		<section
+			class="w-full aspect-[2/1] max-h-[120vh] min-h-[700px] p-9 xl:pt-24 bg-cover bg-center bg-no-repeat flex items-center justify-center "
+			style="background-image: url('./src/assets/hero-bg16.png');
+		background-position: top; ">
+			<div
+				class="absolute inset-0 w-full aspect-[2/1] max-h-[120vh] min-h-[700px] bg-gradient-to-b from-black/90 via-black/60  to-bg-dark z-10">
 			</div>
-		</div>
-	</section>
-	<!-- STATS SECTION -->
-	<section class="w-full py-16 bg-bg-dark">
-		<div class="w-full max-w-5xl m-auto flex justify-between">
-			<div class="flex flex-col">
-				<p class="uppercase text-text-light">Hectarias protegidas</p>
-				<p class="text-primary font-headerText font-bold text-3xl">15,000</p>
+			<div class="z-20 w-full max-w-6xl m-auto space-y-9 text-center">
+				<h1 class="font-headerText text-4xl lg:text-8xl font-bold">Gestion Forestal
+					Inteligente para un Futuro <span class="text-primary italic"
+						style="text-shadow:  1px 1px 20px black;">Regenerativo</span></h1>
+				<p class="max-w-[50ch] m-auto text-2xl">Transformando la relación entre la industria y la naturaleza a
+					través
+					de la innovación sontenible y la tecnología de precisión.</p>
+				<div class="flex flex-col items-center max-w-xs m-auto sm:flex-row text-md gap-4 sm:gap-3">
+					<a href="/silvestra/src/pages/servicios.html"
+						class="bg-primary min-w-[180px] w-full cursor-pointer h-14 px-8 flex items-center justify-center text-primary-foreground font-bold tracking-widest rounded-sm uppercase transition-all hover:shadow-lg hover:shadow-primary/20 hover:translate-y-[-2px]  hover:brightness-110 ">explorar
+						servicios</a>
+
+				</div>
 			</div>
-			<div class="flex flex-col">
-				<p class="uppercase text-text-light">Carbono capturado</p>
-				<p class="text-primary font-headerText font-bold text-3xl">2.4M Ton</p>
+		</section>
+		<!-- STATS SECTION -->
+		<section class="w-full py-16 bg-bg-dark">
+			<div class="w-full max-w-5xl m-auto flex justify-between">
+				<div class="flex flex-col">
+					<p class="uppercase text-text-light">Hectarias protegidas</p>
+					<p class="text-primary font-headerText font-bold text-3xl">15,000</p>
+				</div>
+				<div class="flex flex-col">
+					<p class="uppercase text-text-light">Carbono capturado</p>
+					<p class="text-primary font-headerText font-bold text-3xl">450 Ton</p>
+				</div>
+				<div class="flex flex-col">
+					<p class="uppercase text-text-light">BIODIVERSIDAD ACTIVA</p>
+					<p class="text-primary font-headerText font-bold text-3xl">+15%</p>
+				</div>
+				<div class="flex flex-col">
+					<p class="uppercase text-text-light">impacto social</p>
+					<p class="text-primary font-headerText font-bold text-3xl">45 Com.</p>
+				</div>
 			</div>
-			<div class="flex flex-col">
-				<p class="uppercase text-text-light">Especies preservadas</p>
-				<p class="text-primary font-headerText font-bold text-3xl">120+</p>
+		</section>
+		<!-- MISION SECTION -->
+		<section class="w-full py-40 px-9">
+			<div class="w-full max-w-5xl m-auto">
+				<span class="text-primary font-medium tracking-[0.7rem]">NUESTRA MISIÓN</span>
+				<h2 class="text-7xl font-headerText leading-tight text-semibold mt-3 mb-16 max-w-[20ch]">Liderando la
+					transición hacia
+					una <span class="text-primary italic">Economia
+						Circular Forestal </span></h2>
 			</div>
-			<div class="flex flex-col">
-				<p class="uppercase text-text-light">impacto social</p>
-				<p class="text-primary font-headerText font-bold text-3xl">45 Com.</p>
-			</div>
-		</div>
-	</section>
-	<!-- MISION SECTION -->
-	<section class="w-full py-32 px-9">
-		<div class="w-full max-w-5xl m-auto grid grid-cols-1 lg:grid-cols-2 gap-9 lg:gap-36">
-			<div class="">
-				<span class="text-primary font-medium">NUESTRA MISIÓN</span>
-				<h2 class="font-headerText leading-tight text-semibold mt-3 max-w-[30ch]">Liderando la transición hacia
-					una economia
-					circular forstal.</h2>
-				<p class="my-6 text-text-light max-w-[65ch]">No solo extraemos recursos; diseñamos ecosistemas que
-					prosperan. Nuestra metodología integra tecnología de silvicultura para garantizar que cada plantado
-					constituya a la resilencia climática global.</p>
-				<div class="flex gap-6">
+			<div class="w-full max-w-5xl m-auto grid grid-cols-1 lg:grid-cols-2 gap-9 lg:gap-36">
+				<div class="space-y-20">
+					<p class="text-xl text-text-light max-w-[65ch]">No solo extraemos recursos; diseñamos ecosistemas
+						que
+						prosperan. Nuestra metodología integra tecnología de silvicultura para garantizar que cada
+						plantado
+						constituya a la resilencia climática global.</p>
+
 					<article class="space-y-2">
 						<span class="text-primary block ">
 							<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24"
@@ -118,8 +125,8 @@
 									d="m9.344 5.811 1.093-1.892A1.83 1.83 0 0 1 11.985 3a1.784 1.784 0 0 1 1.546.888l3.943 6.843" />
 								<path d="m13.378 9.633 4.096 1.098 1.097-4.096" />
 							</svg></span>
-						<h4 class="font-semibold">Ciclocerrado</h4>
-						<p class="text-sm text-text-light max-w-72">Mapeo 3D de alta precisión para inventarios
+						<h4 class="text-4xl font-headerText tracking-wide">Ciclocerrado</h4>
+						<p class="text-text-light max-w-72">Mapeo 3D de alta precisión para inventarios
 							dinámicos.
 						</p>
 					</article>
@@ -138,99 +145,102 @@
 									d="m9.344 5.811 1.093-1.892A1.83 1.83 0 0 1 11.985 3a1.784 1.784 0 0 1 1.546.888l3.943 6.843" />
 								<path d="m13.378 9.633 4.096 1.098 1.097-4.096" />
 							</svg></span>
-						<h4 class="font-semibold">Tecnología LiDAR</h4>
-						<p class="text-sm text-text-light max-w-72">Minimizamos desperdicios transformando biomasa de
+						<h4 class="text-3xl font-headerText tracking-wide">Tecnología LiDAR</h4>
+						<p class="text-text-light max-w-72">Minimizamos desperdicios transformando biomasa
+							de
 							energía.
 						</p>
 					</article>
 				</div>
-
-
-			</div>
-			<div class="relative rounded-sm h-full sm:max-w-[500px] flex flex-col-reverse gap-6">
-				<img src="/silvestra/src/assets/mision.png" alt=""
-					class="w-full h-full object-cover border border-primary/20 rounded-sm ">
-				<div
-					class="hidden lg:flex lg:absolute border border-primary/20 w-60 h-60 -left-28 -bottom-16 bg-bg-light rounded-sm p-6 lg:p-9 justify-center">
-					<p class="font-headerText italic text-xl font-medium tracking-wide">"La naturaleza no es una
-						mercancía, es nuestra
-						infraestructura vital."</p>
+				<div class="relative rounded-sm h-full sm:max-w-[500px] flex flex-col-reverse gap-6">
+					<img src="/src/assets/hero-bg.png" alt=""
+						class="w-full h-full object-cover border border-primary/20 rounded-sm ">
+					<div
+						class="hidden lg:flex lg:absolute border border-primary/20 w-72 h-80 -left-44 -bottom-32 bg-bg-light/70 backdrop-blur-md rounded-sm p-6 lg:p-9 justify-center">
+						<p class="font-headerText italic text-3xl tracking-wider">"La naturaleza no es una
+							mercancía, es nuestra
+							infraestructura vital."</p>
+					</div>
 				</div>
 			</div>
-		</div>
-	</section>
-	<!-- IMPACT SECTION -->
-	<section class="w-full py-32 pt-0 px-9">
-		<div class="w-full max-w-5xl m-auto space-y-9">
-			<div class=" grid grid-cols-3 gap-6">
-				<h2 class="col-span-3 font-headerText text-3xl font-semibold">Áreas de Impacto</h2>
-				<p class="col-span-2 text-text-light max-w-[520px] text-lg">Explora cómo implementamos soluciones
-					regenerativas en todo el territorio.</p>
-				<button class="flex gap-3 text-primary justify-end"><a href="./src/pages/servicios.html"
-						class="uppercase font-bold tracking-wider"> VER
-						CATÁLAGO COMPLETO</a>
-					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-						stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"
-						class="lucide lucide-move-right-icon lucide-move-right">
-						<path d="M18 8L22 12L18 16" />
-						<path d="M2 12H22" />
-					</svg>
+		</section>
+		<!-- IMPACT SECTION -->
+		<section class="w-full py-32 px-9">
+			<div class="w-full max-w-5xl m-auto space-y-9">
+				<div class=" flex flex-col gap-9 mb-24">
+					<h2 class=" font-headerText text-7xl ">Áreas de Impacto</h2>
+					<button class="flex gap-3 text-primary justify-end"><a href="./src/pages/servicios.html" class="text-xl tracking-widest"
+							class="uppercase font-bold tracking-wider"> VER
+							CATÁLAGO COMPLETO</a>
+						<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+							stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"
+							class="lucide lucide-move-right-icon lucide-move-right">
+							<path d="M18 8L22 12L18 16" />
+							<path d="M2 12H22" />
+						</svg>
+					</button>
+					<p class="text-text-light max-w-[550px] text-2xl">Explora cómo implementamos soluciones
+						regenerativas en todo el territorio.
+					</p>
+				</div>
+				<div class="grid grid-cols-3 gap-9 w-full">
+					<article class="relative overflow-hidden rounded-md group cursor-pointer h-96 ">
+						<div
+							class="absolute inset-0 bg-gradient-to-t from-bg-dark to-transparent z-20 flex flex-col justify-end p-6">
+							<span class="text-primary text-sm tracking-wide">RESTAURACIÓN</span>
+							<h4 class="font-headerText text-2xl font-bold tracking-wide py-2">Reforestación Nativa</h4>
+						</div>
+						<div class="h-full w-full overflow-hidden">
+							<img src="./src/assets/impact-card1.png" alt=""
+								class="h-full w-full object-cover transition-all duration-700 ease-in-out group-hover:scale-110">
+						</div>
+					</article>
+					<article class="relative overflow-hidden rounded-md group cursor-pointer">
+						<div
+							class="absolute inset-0 bg-gradient-to-t from-bg-dark to-transparent z-20 flex flex-col justify-end p-6 rounded-md">
+							<span class="text-primary text-sm tracking-wide">APROVECHAMIENTO</span>
+							<!-- ACMBIAR FOTO -->
+							<h4 class="font-headerText text-2xl font-bold tracking-wide py-2">Aprovechamiento integral
+								del árbol</h4>
+						</div>
+						<div class="h-full w-full overflow-hidden">
+							<img src="./src/assets/impact-card2.png" alt=""
+								class="h-full w-full object-cover transition-all duration-700 ease-in-out group-hover:scale-110">
+						</div>
+					</article>
+					<article class="relative overflow-hidden rounded-md group cursor-pointer">
+						<div
+							class="absolute inset-0 bg-gradient-to-t from-bg-dark to-transparent z-20 flex flex-col justify-end p-6 rounded-md">
+							<span class="text-primary text-sm tracking-wide">CONSULTORÍA</span>
+							<h4 class="font-headerText text-2xl font-bold tracking-wide py-2">Bonos de Carbono</h4>
+						</div>
+						<div class="h-full w-full overflow-hidden">
+							<img src="./src/assets/impact-card3.png" alt=""
+								class="h-full w-full object-cover transition-all duration-700 ease-in-out group-hover:scale-110">
+						</div>
+					</article>
+				</div>
+			</div>
+		</section>
+		<!-- CONTACT SECTION -->
+		<section class="bg-primary w-full py-24 text-center px-9">
+			<div class="w-full max-w-5xl m-auto text-bg-dark space-y-9">
+				<h3 class="font-headerText text-3xl md:text-5xl font-semibold">¿Listo para formar parte de <br
+						class="hidden md:block" />la revolución forestal?
+				</h3>
+				<p>Trabajamos con empresas, gobiernos y comunidades para <br class="hidden md:block" />escalar el
+					impacto
+					regenerativ.o</p>
+				<button>
+					<a
+						href="/silvestra/src/pages/contacto.html"
+						class="bg-bg-dark cursor-pointer h-11 px-8 flex items-center justify-center text-white font-bold tracking-widest rounded-sm text-sm uppercase transition-all hover:translate-y-[-2px]">
+						CONTACTAR CON UN EXPERTO
+					</a>
 				</button>
 			</div>
-			<div class="grid grid-cols-3 gap-9 w-full">
-				
-				<article class="relative overflow-hidden rounded-md group cursor-pointer h-96 ">
-					<div
-						class="absolute inset-0 bg-gradient-to-t from-bg-dark to-transparent z-20 flex flex-col justify-end p-6">
-						<span class="text-primary text-sm tracking-wide">RESTAURACIÓN</span>
-						<h4 class="font-headerText text-2xl font-bold tracking-wide py-2">Reforestación Nativa</h4>
-					</div>
-					<div class="h-full w-full overflow-hidden">
-						<img src="./src/assets/impact-card1.png" alt=""
-							class="h-full w-full object-cover transition-all duration-700 ease-in-out group-hover:scale-110">
-					</div>
-				</article>
-				<article class="relative overflow-hidden rounded-md group cursor-pointer">
-					<div
-						class="absolute inset-0 bg-gradient-to-t from-bg-dark to-transparent z-20 flex flex-col justify-end p-6 rounded-md">
-						<span class="text-primary text-sm tracking-wide">ENERGÍA</span>
-						<h4 class="font-headerText text-2xl font-bold tracking-wide py-2">Biomasa Sostenible</h4>
-					</div>
-					<div class="h-full w-full overflow-hidden">
-						<img src="./src/assets/impact-card2.png" alt=""
-							class="h-full w-full object-cover transition-all duration-700 ease-in-out group-hover:scale-110">
-					</div>
-				</article>
-				<article class="relative overflow-hidden rounded-md group cursor-pointer">
-					<div
-						class="absolute inset-0 bg-gradient-to-t from-bg-dark to-transparent z-20 flex flex-col justify-end p-6 rounded-md">
-						<span class="text-primary text-sm tracking-wide">CONSULTORÍA</span>
-						<h4 class="font-headerText text-2xl font-bold tracking-wide py-2">Bonos de Carbono</h4>
-					</div>
-					<div class="h-full w-full overflow-hidden">
-						<img src="./src/assets/impact-card3.png" alt=""
-							class="h-full w-full object-cover transition-all duration-700 ease-in-out group-hover:scale-110">
-					</div>
-				</article>
-			</div>
-		</div>
-	</section>
-	<!-- CONTACT SECTION -->
-	<section class="bg-primary w-full py-24 text-center px-9">
-		<div class="w-full max-w-5xl m-auto text-bg-dark space-y-9">
-			<h3 class="font-headerText text-3xl md:text-5xl font-semibold">¿Listo para formar parte de <br
-					class="hidden md:block" />la revolución forestal?
-			</h3>
-			<p>Trabajamos con empresas, gobiernos y comunidades para <br class="hidden md:block" />escalar el impacto
-				regenerativ.o</p>
-			<button>
-				<a
-					class="bg-bg-dark cursor-pointer h-11 px-8 flex items-center justify-center text-white font-bold tracking-widest rounded-sm text-sm uppercase transition-all hover:translate-y-[-2px]">
-					CONTACTAR CON UN EXPERTO
-				</a>
-			</button>
-		</div>
-	</section>
+		</section>
+	</main>
 	<!-- FOOTER-->
 	<footer class="w-full bg-bg-dark py-14">
 		<div class="w-full max-w-7xl m-auto flex flex-col items-center gap-6 px-6 md:px-9">
