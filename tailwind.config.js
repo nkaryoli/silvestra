@@ -16,7 +16,7 @@ module.exports = {
                 "border": "#4a4a4a",
                 "card": "#1f1a18",
                 "text": "#ffffff",
-                "text-light": "#99a1af",
+                "text-light": "#888686",
             },
             fontFamily: {
                 'headerText': ["Playfair Display", "sans-serif"],
