@@ -255,10 +255,10 @@
 		<!-- Governance Section -->
 		<section class="relative bg-bg-dark py-9 md:py-32 px-6 md:px-9 bg-no-repeat bg-cover" style="background-image: url('./src/assets/gobernanza.png');
 		background-position: top; ">
-			<div
-				class="absolute inset-0 bg-gradient-to-b from-black/60 via-black/60 to-black/60 z-0">
+			<div class="absolute inset-0 bg-gradient-to-b from-black/60 via-black/60 to-black/60 z-0">
 			</div>
-			<div class="z-20 max-w-5xl m-auto overflow-hidden space-y-6 md:space-y-14 bg-bg-light/50 backdrop-blur-md relative p-6 md:p-20 rounded-md shadow-2xl shadow-black/50">
+			<div
+				class="z-20 max-w-5xl m-auto overflow-hidden space-y-6 md:space-y-14 bg-bg-light/50 backdrop-blur-md relative p-6 md:p-20 rounded-md shadow-2xl shadow-black/50">
 				<h2 class="font-headerText text-center text-5xl md:text-6xl lg:text-6xl text-primary">Gobernanza Ética y
 					Transparente
 				</h2>
@@ -280,7 +280,7 @@
 								<path d="m9 12 2 2 4-4" />
 							</svg>
 						</div>
-				
+
 						<div class="relative z-10">
 							<h5
 								class="font-semibold font-headerText text-2xl tracking-wide mb-3 group-hover:text-primary transition-colors duration-300">
@@ -305,7 +305,7 @@
 								<path d="M6 18v-7" />
 							</svg>
 						</div>
-					
+
 						<div class="relative z-10">
 							<h5
 								class="font-semibold font-headerText text-2xl tracking-wide mb-3 group-hover:text-primary transition-colors duration-300">
@@ -423,13 +423,12 @@
 			</div>
 		</section>
 		<!-- IMPACT SECTION -->
-		<section class="w-full py-32 px-9">
-			<div class="w-full max-w-5xl m-auto space-y-9">
-				<div class=" flex flex-col gap-9 mb-24">
-					<h2 class=" font-headerText text-7xl ">Áreas de Impacto</h2>
-					<button class="flex gap-3 text-primary justify-end"><a href="./src/pages/servicios.html"
-							class="text-xl tracking-widest" class="uppercase font-bold tracking-wider"> VER
-							CATÁLAGO COMPLETO</a>
+		<section class="w-full py-16 px-6 md:py-32 md:px-9">
+			<div class="w-full max-w-5xl m-auto space-y-12">
+				<div class="flex flex-col lg:flex-row justify-between items-center gap-12">
+					<h2 class=" font-headerText text-center text-5xl md:text-6xl">Áreas de Impacto</h2>
+					<button class="flex gap-3 text-primary items-center"><a href="./src/pages/sostenibilidad.html"
+							class="text-lg tracking-widest" class="uppercase font-bold tracking-wider"> SABER MÁS</a>
 						<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
 							stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"
 							class="lucide lucide-move-right-icon lucide-move-right">
@@ -437,12 +436,13 @@
 							<path d="M2 12H22" />
 						</svg>
 					</button>
-					<p class="text-text-light max-w-[550px] text-2xl">Explora cómo implementamos soluciones
-						regenerativas en todo el territorio.
-					</p>
 				</div>
-				<div class="grid grid-cols-3 gap-9 w-full">
-					<article class="relative overflow-hidden rounded-md group cursor-pointer h-96 ">
+				<p class="font-headerText italic text-center lg:text-left text-text/80 text-3xl max-w-[800px]">Explora cómo implementamos
+					<span class="text-primary">soluciones
+						regenerativas</span> en todo el territorio.
+				</p>
+				<div class="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+					<article class="col-span-1 relative overflow-hidden rounded-md group cursor-pointer h-96">
 						<div
 							class="absolute inset-0 bg-gradient-to-t from-bg-dark to-transparent z-20 flex flex-col justify-end p-6">
 							<span class="text-primary text-sm tracking-wide">RESTAURACIÓN</span>
@@ -450,31 +450,30 @@
 						</div>
 						<div class="h-full w-full overflow-hidden">
 							<img src="./src/assets/impact-card1.png" alt=""
-								class="h-full w-full object-cover transition-all duration-700 ease-in-out group-hover:scale-110">
+								class="h-full w-full object-cover transition-all duration-700 ease-in-out opacity-60 group-hover:opacity-100 group-hover:scale-110">
 						</div>
 					</article>
-					<article class="relative overflow-hidden rounded-md group cursor-pointer">
+					<article class="col-span-1 relative overflow-hidden rounded-md group cursor-pointer h-96">
 						<div
-							class="absolute inset-0 bg-gradient-to-t from-bg-dark to-transparent z-20 flex flex-col justify-end p-6 rounded-md">
+							class="absolute inset-0 bg-gradient-to-t from-bg-dark to-transparent z-20 flex flex-col justify-end p-6">
 							<span class="text-primary text-sm tracking-wide">APROVECHAMIENTO</span>
-							<!-- ACMBIAR FOTO -->
 							<h4 class="font-headerText text-2xl font-bold tracking-wide py-2">Aprovechamiento integral
 								del árbol</h4>
 						</div>
 						<div class="h-full w-full overflow-hidden">
-							<img src="./src/assets/impact-card2.png" alt=""
-								class="h-full w-full object-cover transition-all duration-700 ease-in-out group-hover:scale-110">
+							<img src="./src/assets/conglomerado.jpg" alt=""
+								class="h-full w-full object-cover transition-all duration-700 ease-in-out opacity-60 group-hover:opacity-100 group-hover:scale-110">
 						</div>
 					</article>
-					<article class="relative overflow-hidden rounded-md group cursor-pointer">
+					<article class="col-span-1 relative overflow-hidden rounded-md group cursor-pointer h-96">
 						<div
-							class="absolute inset-0 bg-gradient-to-t from-bg-dark to-transparent z-20 flex flex-col justify-end p-6 rounded-md">
+							class="absolute inset-0 bg-gradient-to-t from-bg-dark to-transparent z-20 flex flex-col justify-end p-6">
 							<span class="text-primary text-sm tracking-wide">CONSULTORÍA</span>
 							<h4 class="font-headerText text-2xl font-bold tracking-wide py-2">Bonos de Carbono</h4>
 						</div>
 						<div class="h-full w-full overflow-hidden">
-							<img src="./src/assets/impact-card3.png" alt=""
-								class="h-full w-full object-cover transition-all duration-700 ease-in-out group-hover:scale-110">
+							<img src="https://a2g.pe/wp-content/uploads/2024/11/Diseno-sin-titulo-59.jpg" alt=""
+								class="h-full w-full object-cover transition-all duration-700 ease-in-out opacity-60 group-hover:opacity-100 group-hover:scale-110">
 						</div>
 					</article>
 				</div>
