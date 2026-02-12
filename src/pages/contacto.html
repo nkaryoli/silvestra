@@ -51,9 +51,9 @@
         class="relative w-full min-h-[600px] md:min-h-[80vh] bg-bg-dark flex items-center justify-center overflow-hidden">
         <div class="relative z-20 w-full max-w-5xl mx-auto px-6 py-24 text-center">
             <div
-                class="inline-block py-10 px-8 md:px-16 rounded-xl bg-radial-gradient from-bg-dark/80 via-bg-dark/40 to-transparent">
+                class="inline-block py-10 px-8 md:px-16 rounded-lg bg-radial-gradient from-bg-dark/80 via-bg-dark/40 to-transparent">
                 <span
-                    class="text-primary font-bold uppercase tracking-[0.4em] text-[10px] md:text-xs mb-6 block drop-shadow-md">
+                    class="text-primary font-bold uppercase tracking-[0.4em] text-sm md:text-xs mb-6 block drop-shadow-md">
                     Atención Directa
                 </span>
                 <h1
@@ -77,7 +77,7 @@
         <div class="max-w-5xl mx-auto space-y-24">
 
             <section class="grid lg:grid-cols-2 gap-16 items-stretch">
-                <div class="bg-card p-10 rounded-xl border border-border/20 shadow-2xl">
+                <div class="bg-card p-10 rounded-lg border border-border/20 shadow-2xl">
                     <h2 class="font-headerText text-4xl font-bold text-text mb-2">Conectemos</h2>
                     <p class="text-text-light text-sm mb-8">Cuéntanos cómo podemos colaborar o en qué podemos ayudarte.
                     </p>
@@ -88,24 +88,24 @@
                         <div class="grid md:grid-cols-2 gap-5">
                             <div class="space-y-2">
                                 <label
-                                    class="text-[10px] uppercase tracking-widest text-primary font-bold">Nombre</label>
+                                    class="text-sm uppercase tracking-widest text-primary font-bold">Nombre</label>
                                 <input type="text" name="name" required placeholder="Tu nombre"
-                                    class="w-full bg-bg-dark border border-border/40 rounded-lg p-3 text-text placeholder:text-text-light/30 focus:outline-none focus:border-primary transition-colors">
+                                    class="w-full bg-bg-dark border border-border/40 rounded-md p-3 text-text placeholder:text-text-light/30 focus:outline-none focus:border-primary transition-colors">
                             </div>
                             <div class="space-y-2">
                                 <label
-                                    class="text-[10px] uppercase tracking-widest text-primary font-bold">Email</label>
+                                    class="text-sm uppercase tracking-widest text-primary font-bold">Email</label>
                                 <input type="email" name="email" required placeholder="hola@ejemplo.com"
-                                    class="w-full bg-bg-dark border border-border/40 rounded-lg p-3 text-text placeholder:text-text-light/30 focus:outline-none focus:border-primary transition-colors">
+                                    class="w-full bg-bg-dark border border-border/40 rounded-md p-3 text-text placeholder:text-text-light/30 focus:outline-none focus:border-primary transition-colors">
                             </div>
                         </div>
 
                         <div class="space-y-2">
-                            <label class="text-[10px] uppercase tracking-widest text-primary font-bold">Motivo de
+                            <label class="text-sm uppercase tracking-widest text-primary font-bold">Motivo de
                                 consulta</label>
                             <div class="relative">
                                 <select name="subject" required
-                                    class="w-full bg-bg-dark border border-border/40 rounded-lg p-3 text-text-light/50 focus:outline-none focus:border-primary transition-colors appearance-none cursor-pointer invalid:text-text-light/50"
+                                    class="w-full bg-bg-dark border border-border/40 rounded-md p-3 text-text-light/50 focus:outline-none focus:border-primary transition-colors appearance-none cursor-pointer invalid:text-text-light/50"
                                     onchange="this.classList.remove('text-text-light/50'); this.classList.add('text-primary', 'font-bold')">
                                     <option value="" disabled selected>Selecciona una opción...</option>
                                     <option value="presupuesto" class="bg-bg-dark text-white font-normal">Presupuesto de
@@ -130,10 +130,10 @@
                         </div>
 
                         <div class="space-y-2">
-                            <label class="text-[10px] uppercase tracking-widest text-primary font-bold">Tu
+                            <label class="text-sm uppercase tracking-widest text-primary font-bold">Tu
                                 Mensaje</label>
                             <textarea name="message" required rows="4" placeholder="¿En qué estás pensando?"
-                                class="w-full bg-bg-dark border border-border/40 rounded-lg p-3 text-text placeholder:text-text-light/30 focus:outline-none focus:border-primary transition-colors"></textarea>
+                                class="w-full bg-bg-dark border border-border/40 rounded-md p-3 text-text placeholder:text-text-light/30 focus:outline-none focus:border-primary transition-colors"></textarea>
                         </div>
 
                         <div class="flex items-start gap-3 py-2">
@@ -148,7 +148,7 @@
                         </div>
 
                         <button type="submit"
-                            class="w-full bg-primary text-white font-bold py-4 rounded-lg uppercase tracking-[0.2em] hover:brightness-110 active:scale-[0.98] transition-all shadow-lg shadow-primary/20 mt-2">
+                            class="bg-primary min-w-[180px] w-full cursor-pointer h-12 px-8 flex items-center justify-center text-primary-foreground font-bold tracking-widest rounded-sm uppercase transition-all hover:shadow-lg hover:shadow-primary/20 hover:translate-y-[-2px]  hover:brightness-110 mt-10">
                             Enviar Mensaje
                         </button>
                     </form>
@@ -168,22 +168,22 @@
 
                         <div class="grid grid-cols-2 gap-6 pt-4">
                             <div class="space-y-2">
-                                <h4 class="text-primary font-bold uppercase text-[10px] tracking-widest">Atención
+                                <h4 class="text-primary font-bold uppercase text-sm tracking-widest">Atención
                                     Telefónica</h4>
                                 <p class="text-text text-sm">+34 977 123 456</p>
-                                <p class="text-text-light text-[10px]">Lunes a Viernes, 8h — 18h</p>
+                                <p class="text-text-light">Lunes a Viernes, 8h — 18h</p>
                             </div>
                             <div class="space-y-2">
-                                <h4 class="text-primary font-bold uppercase text-[10px] tracking-widest">Sede Central
+                                <h4 class="text-primary font-bold uppercase text-sm tracking-widest">Sede Central
                                 </h4>
                                 <p class="text-text text-sm">Carrer del Bosc, 47</p>
-                                <p class="text-text-light text-[10px]">43730 Falset, Tarragona</p>
+                                <p class="text-text-light">43730 Falset, Tarragona</p>
                             </div>
                         </div>
                     </div>
 
                     <div class="pt-8 border-t border-border/20">
-                        <h4 class="text-text-light font-bold uppercase tracking-widest text-[10px]  mb-4">
+                        <h4 class="text-text-light font-bold uppercase tracking-widest text-lg  mb-4">
                             Comunidad Silvestra
                         </h4>
                         <div class="flex gap-6">
@@ -224,7 +224,7 @@
             <section class="py-20 border-t border-border/10">
                 <div class="flex flex-col md:flex-row justify-between items-start md:items-end mb-8 gap-4">
                     <div class="text-left">
-                        <span class="text-primary font-bold text-[10px] uppercase tracking-[0.3em] mb-2 block">Ubicación
+                        <span class="text-primary font-bold text-sm uppercase tracking-[0.3em] mb-2 block">Ubicación
                             Física</span>
                         <h3 class="font-headerText text-5xl font-bold text-text italic">Encuéntranos</h3>
                     </div>
@@ -236,7 +236,7 @@
                 </div>
 
                 <div
-                    class="w-full h-[450px] rounded-xl overflow-hidden grayscale contrast-[1.1] invert-[0.9] opacity-80 border border-border/20 shadow-2xl">
+                    class="w-full h-[450px] rounded-lg overflow-hidden grayscale contrast-[1.1] invert-[0.9] opacity-80 border border-border/20 shadow-2xl">
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6009.051524674312!2d0.815667791860782!3d41.14487756468408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a130cf9e6e860d%3A0x412f47a8e9ea991f!2s43730%20Falset%2C%20Tarragona!5e0!3m2!1ses!2ses!4v1769522634998!5m2!1ses!2ses"
                         width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
@@ -254,7 +254,7 @@
 
                 <div class="space-y-6">
                     <details
-                        class="group bg-card/40 rounded-xl border border-border/10 transition-all duration-300 hover:border-primary/30">
+                        class="group bg-card/40 rounded-lg border border-border/10 transition-all duration-300 hover:border-primary/30">
                         <summary
                             class="p-6 text-white font-bold cursor-pointer list-none flex justify-between items-center">
                             <span>¿Qué significa que la madera sea certificada FSC?</span>
@@ -268,7 +268,7 @@
                     </details>
 
                     <details
-                        class="group bg-card/40 rounded-xl border border-border/10 transition-all duration-300 hover:border-primary/30">
+                        class="group bg-card/40 rounded-lg border border-border/10 transition-all duration-300 hover:border-primary/30">
                         <summary
                             class="p-6 text-white font-bold cursor-pointer list-none flex justify-between items-center">
                             <span>¿Cómo garantizan la reforestación?</span>
@@ -282,7 +282,7 @@
                     </details>
 
                     <details
-                        class="group bg-card/40 rounded-xl border border-border/10 transition-all duration-300 hover:border-primary/30">
+                        class="group bg-card/40 rounded-lg border border-border/10 transition-all duration-300 hover:border-primary/30">
                         <summary
                             class="p-6 text-white font-bold cursor-pointer list-none flex justify-between items-center">
                             <span>¿Puedo visitar las explotaciones forestales?</span>
@@ -296,7 +296,7 @@
                     </details>
 
                     <details
-                        class="group bg-card/40 rounded-xl border border-border/10 transition-all duration-300 hover:border-primary/30">
+                        class="group bg-card/40 rounded-lg border border-border/10 transition-all duration-300 hover:border-primary/30">
                         <summary
                             class="p-6 text-white font-bold cursor-pointer list-none flex justify-between items-center">
                             <span>¿Entregan fuera de Cataluña?</span>
@@ -310,7 +310,7 @@
                     </details>
 
                     <details
-                        class="group bg-card/40 rounded-xl border border-border/10 transition-all duration-300 hover:border-primary/30">
+                        class="group bg-card/40 rounded-lg border border-border/10 transition-all duration-300 hover:border-primary/30">
                         <summary
                             class="p-6 text-white font-bold cursor-pointer list-none flex justify-between items-center">
                             <span>¿Cómo sé que la madera que compro es realmente de Silvestra?</span>
@@ -324,7 +324,7 @@
                     </details>
 
                     <details
-                        class="group bg-card/40 rounded-xl border border-border/10 transition-all duration-300 hover:border-primary/30">
+                        class="group bg-card/40 rounded-lg border border-border/10 transition-all duration-300 hover:border-primary/30">
                         <summary
                             class="p-6 text-white font-bold cursor-pointer list-none flex justify-between items-center">
                             <span>¿Ofrecen asesoramiento técnico para arquitectos?</span>
