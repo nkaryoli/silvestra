@@ -3,7 +3,6 @@
 
 <head>
     <meta charset="UTF-8">
-	<link rel="icon" type="image/png" href="/silvestra/src/assets/favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Silvestra - Sobre Nosotros</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -11,7 +10,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
         rel="stylesheet">
-    <link href="/silvestra/build/output.css" rel="stylesheet">
+    <link href="/build/output.css" rel="stylesheet">
 </head>
 
 <body class="bg-bg-dark text-text font-bodyText min-h-screen">
@@ -99,15 +98,15 @@
                         </div>
                     </div>
                 </div>
-                <div class="bg-card p-4 rounded-xl border border-border/30 shadow-2xl relative group">
+                <div class="bg-card p-4 rounded-lg border border-border/30 shadow-2xl relative group">
 
                     <div
-                        class="absolute -top-4 -right-2 bg-primary text-bg-dark font-bold py-2 px-4 rounded-lg transform rotate-3 shadow-lg z-30 tracking-tight">
+                        class="absolute -top-4 -right-2 bg-primary text-bg-dark font-bold py-2 px-4 rounded-md transform rotate-3 shadow-lg z-30 tracking-tight">
                         Est. 1995
                     </div>
 
                     <div
-                        class="aspect-square rounded-lg overflow-hidden bg-bg-light border border-dashed border-border flex items-center justify-center relative z-10">
+                        class="aspect-square rounded-md overflow-hidden bg-bg-light border border-dashed border-border flex items-center justify-center relative z-10">
                         <img src="/silvestra/src/assets/imagen_bosque_tarragona.avif"
                             alt="Bosques de Silvestra en Tarragona"
                             class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 brightness-90">
@@ -119,7 +118,7 @@
                 </div>
             </section>
 
-            <section class="space-y-16 bg-card/20 p-8 md:p-16 rounded-[3rem] border border-border/10">
+            <section class="space-y-16 bg-card/20 p-8 md:p-16 rounded-lg border border-border/10">
                 <div class="text-center max-w-2xl mx-auto">
                     <h2 class="font-headerText text-4xl font-bold text-white mb-4 uppercase tracking-tighter">Mucho más
                         que madera</h2>
@@ -131,7 +130,7 @@
 
                 <div class="grid md:grid-cols-3 gap-10">
                     <div
-                        class="bg-card p-8 rounded-2xl hover:translate-y-[-5px] transition-all border border-transparent hover:border-primary/20">
+                        class="bg-card p-8 rounded-lg hover:translate-y-[-5px] transition-all border border-transparent hover:border-primary/20">
                         <h3 class="text-xl font-bold text-white mb-2">Prevención de Incendios</h3>
                         <p class="text-text-light text-sm leading-relaxed">
                             Al limpiar el sotobosque y reducir la densidad excesiva, eliminamos el combustible natural
@@ -139,7 +138,7 @@
                         </p>
                     </div>
                     <div
-                        class="bg-card p-8 rounded-2xl hover:translate-y-[-5px] transition-all border border-transparent hover:border-primary/20">
+                        class="bg-card p-8 rounded-lg hover:translate-y-[-5px] transition-all border border-transparent hover:border-primary/20">
                         <h3 class="text-xl font-bold text-white mb-2">Trazabilidad Total</h3>
                         <p class="text-text-light text-sm leading-relaxed">
                             Cada tronco tiene una historia. Controlamos desde la semilla hasta el aserradero,
@@ -147,7 +146,7 @@
                         </p>
                     </div>
                     <div
-                        class="bg-card p-8 rounded-2xl hover:translate-y-[-5px] transition-all border border-transparent hover:border-primary/20">
+                        class="bg-card p-8 rounded-lg hover:translate-y-[-5px] transition-all border border-transparent hover:border-primary/20">
                         <h3 class="text-xl font-bold text-white mb-2">Arquitectura Verde</h3>
                         <p class="text-text-light text-sm leading-relaxed">
                             Suministramos madera premium para bioconstrucción, sustituyendo materiales contaminantes
@@ -158,7 +157,7 @@
             </section>
 
             <section class="grid md:grid-cols-2 gap-8">
-                <div class="bg-card p-10 rounded-xl border border-border/20 shadow-xl group">
+                <div class="bg-card p-10 rounded-lg border border-border/20 shadow-xl group">
                     <div
                         class="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-6 group-hover:bg-primary transition-colors">
                         <span class="text-primary group-hover:text-bg-dark font-bold">01</span>
@@ -171,7 +170,7 @@
                         dignos que fijen población en las zonas rurales de Tarragona.
                     </p>
                 </div>
-                <div class="bg-card p-10 rounded-xl border border-border/20 shadow-xl group">
+                <div class="bg-card p-10 rounded-lg border border-border/20 shadow-xl group">
                     <div
                         class="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-6 group-hover:bg-primary transition-colors">
                         <span class="text-primary group-hover:text-bg-dark font-bold">02</span>
@@ -189,86 +188,112 @@
             <section class="space-y-12">
                 <div class="text-center space-y-4">
                     <h2 class="font-headerText text-4xl font-bold text-white">Nuestro Equipo</h2>
-        <p class="text-text-light max-w-xl mx-auto italic">Un equipo multidisciplinar que une la fuerza del campo con el rigor de la ingeniería forestal moderna.</p>
+                    <p class="text-text-light max-w-xl mx-auto italic">Un equipo multidisciplinar que une la fuerza del
+                        campo con el rigor de la ingeniería forestal moderna.</p>
                 </div>
 
                 <div class="grid md:grid-cols-3 gap-12 items-stretch">
-                    <div class="bg-card/50 p-8 rounded-xl border border-border/20 shadow-lg flex flex-col">
-            <h4 class="text-primary font-bold uppercase text-xs tracking-[0.2em] mb-8 border-b border-primary/10 pb-2">Dirección Ejecutiva</h4>
+                    <div class="bg-card/50 p-8 rounded-lg border border-border/20 shadow-lg flex flex-col">
+                        <h4
+                            class="text-primary font-bold uppercase tracking-[0.2em] mb-8 border-b border-primary/10 pb-2">
+                            Dirección Ejecutiva</h4>
                         <ul class="space-y-6 text-white flex-grow">
                             <li>
                                 <strong class="text-lg">Josep Fontanet</strong>
-                    <span class="block text-xs text-primary font-medium uppercase mt-1">Director General</span>
-                    <p class="text-[11px] text-text-light italic leading-tight mt-1">Visión estratégica y legado de 3ª generación.</p>
+                                <span class="block text-sm text-primary font-medium uppercase mt-1">Director
+                                    General</span>
+                                <p class="text-xs text-text-light italic leading-tight mt-1">Visión estratégica y legado
+                                    de 3ª generación.</p>
                             </li>
                             <li>
                                 <strong class="text-lg">Marina Benach</strong>
-                    <span class="block text-xs text-primary font-medium uppercase mt-1">Directora de Sostenibilidad</span>
-                    <p class="text-[11px] text-text-light italic leading-tight mt-1">Especialista en regeneración de ecosistemas mediterráneos.</p>
+                                <span class="block text-sm text-primary font-medium uppercase mt-1">Directora de
+                                    Sostenibilidad</span>
+                                <p class="text-xs text-text-light italic leading-tight mt-1">Especialista en
+                                    regeneración de ecosistemas mediterráneos.</p>
                             </li>
                             <li>
                                 <strong class="text-lg">Victor Alcrudo</strong>
-                    <span class="block text-xs text-primary font-medium uppercase mt-1">Director de Operaciones</span>
-                    <p class="text-[11px] text-text-light italic leading-tight mt-1">Optimización de procesos de extracción y logística verde.</p>
+                                <span class="block text-sm text-primary font-medium uppercase mt-1">Director de
+                                    Operaciones</span>
+                                <p class="text-xs text-text-light italic leading-tight mt-1">Optimización de procesos de
+                                    extracción y logística verde.</p>
                             </li>
                             <li>
-                                <strong class="text-lg">Karyoli Carsiedi</strong>
-                    <span class="block text-xs text-primary font-medium uppercase mt-1">Dir. Estrategia Europea</span>
-                    <p class="text-[11px] text-text-light italic leading-tight mt-1">Alianzas internacionales y mercados de créditos de carbono.</p>
+                                <strong class="text-lg">Karyoli Nieves</strong>
+                                <span class="block text-sm text-primary font-medium uppercase mt-1">Dir. Estrategia
+                                    Europea</span>
+                                <p class="text-xs text-text-light italic leading-tight mt-1">Alianzas internacionales y
+                                    mercados de créditos de carbono.</p>
                             </li>
                         </ul>
                     </div>
 
-                    <div class="bg-card/50 p-8 rounded-xl border border-border/20 shadow-lg flex flex-col">
-            <h4 class="text-primary font-bold uppercase text-xs tracking-[0.2em] mb-8 border-b border-primary/10 pb-2">Ingeniería y Ciencia</h4>
+                    <div class="bg-card/50 p-8 rounded-lg border border-border/20 shadow-lg flex flex-col">
+                        <h4
+                            class="text-primary font-bold uppercase tracking-[0.2em] mb-8 border-b border-primary/10 pb-2">
+                            Ingeniería y Ciencia</h4>
                         <div class="flex-grow space-y-6">
                             <p class="text-text-light text-sm leading-relaxed">
-                    Nuestro departamento técnico transforma datos en salud forestal mediante tecnología de precisión.
+                                Nuestro departamento técnico transforma datos en salud forestal mediante tecnología de
+                                precisión.
                             </p>
                             <ul class="space-y-4">
                                 <li class="flex gap-3 items-start">
                                     <span class="text-primary">🌿</span>
-                        <div class="text-xs text-text-light"><strong class="text-white block">Análisis Biótico</strong> Muestreo periódico de la biodiversidad y salud de los suelos.</div>
+                                    <div class="text-sm text-text-light"><strong class="text-white block">Análisis
+                                            Biótico</strong> Muestreo periódico de la biodiversidad y salud de los
+                                        suelos.</div>
                                 </li>
                                 <li class="flex gap-3 items-start">
                                     <span class="text-primary">🛰️</span>
-                        <div class="text-xs text-text-light"><strong class="text-white block">Teledetección</strong> Uso de drones y satélites para el mapeo de densidad forestal.</div>
+                                    <div class="text-sm text-text-light"><strong
+                                            class="text-white block">Teledetección</strong> Uso de drones y satélites
+                                        para el mapeo de densidad forestal.</div>
                                 </li>
                                 <li class="flex gap-3 items-start">
                                     <span class="text-primary">📊</span>
-                        <div class="text-xs text-text-light"><strong class="text-white block">Certificación</strong> Auditoría interna continua de estándares FSC y PEFC.</div>
+                                    <div class="text-sm text-text-light"><strong
+                                            class="text-white block">Certificación</strong> Auditoría interna continua
+                                        de estándares FSC y PEFC.</div>
                                 </li>
                             </ul>
                             <div class="pt-4 border-t border-border/20 mt-auto">
-                    <p class="text-[10px] text-primary uppercase font-bold tracking-tighter italic">"Ciencia aplicada a la resiliencia climática"</p>
+                                <p class="text-sm text-primary uppercase font-bold tracking-tighter italic">"Ciencia
+                                    aplicada a la resiliencia climática"</p>
                             </div>
                         </div>
                     </div>
 
-                    <div class="bg-card/50 p-8 rounded-xl border border-border/20 shadow-lg flex flex-col">
-            <h4 class="text-primary font-bold uppercase text-xs tracking-[0.2em] mb-8 border-b border-primary/10 pb-2">Fuerza de Campo</h4>
+                    <div class="bg-card/50 p-8 rounded-lg border border-border/20 shadow-lg flex flex-col">
+                        <h4
+                            class="text-primary font-bold uppercase tracking-[0.2em] mb-8 border-b border-primary/10 pb-2">
+                            Fuerza de Campo</h4>
                         <div class="flex-grow space-y-6">
                             <p class="text-text-light text-sm leading-relaxed">
-                    El corazón operativo. Profesionales que ejecutan la gestión con respeto absoluto por el entorno.
+                                El corazón operativo. Profesionales que ejecutan la gestión con respeto absoluto por el
+                                entorno.
                             </p>
                             <div class="space-y-4">
                                 <div class="bg-bg-dark/30 p-3 rounded-lg border border-border/10">
-                                    <h5 class="text-white text-xs font-bold mb-1">Maquinaria de Precisión</h5>
-                        <p class="text-[11px] text-text-light leading-snug">Operarios formados en tecnología de bajo impacto para evitar la compactación del suelo.</p>
+                                    <h5 class="text-white text-sm font-bold mb-1">Maquinaria de Precisión</h5>
+                                    <p class="text-xs text-text-light leading-snug">Operarios formados en tecnología de
+                                        bajo impacto para evitar la compactación del suelo.</p>
                                 </div>
                                 <div class="bg-bg-dark/30 p-3 rounded-lg border border-border/10">
-                                    <h5 class="text-white text-xs font-bold mb-1">Brigada de Prevención</h5>
-                        <p class="text-[11px] text-text-light leading-snug">Expertos en limpieza selectiva y creación de fajas auxiliares contra incendios.</p>
+                                    <h5 class="text-white text-sm font-bold mb-1">Brigada de Prevención</h5>
+                                    <p class="text-xs text-text-light leading-snug">Expertos en limpieza selectiva y
+                                        creación de fajas auxiliares contra incendios.</p>
                                 </div>
                             </div>
                             <div class="grid grid-cols-2 gap-2 pt-2">
                                 <div class="text-center p-2 bg-primary/5 rounded border border-primary/10">
-                                    <span class="block text-white font-bold text-sm">100%</span>
-                        <span class="text-[8px] text-text-light uppercase tracking-tighter">Certificados</span>
+                                    <span class="block text-white font-bold text-md">100%</span>
+                                    <span class="text-xs text-text-light uppercase tracking-tighter">Certificados</span>
                                 </div>
                                 <div class="text-center p-2 bg-primary/5 rounded border border-primary/10">
-                                    <span class="block text-white font-bold text-sm">80h/año</span>
-                                    <span class="text-[8px] text-text-light uppercase tracking-tighter">Formación</span>
+                                    <span class="block text-white font-bold text-md">80h/año</span>
+                                    <span class="text-xs text-text-light uppercase tracking-tighter">Formación</span>
                                 </div>
                             </div>
                         </div>
@@ -279,27 +304,26 @@
             <section class="space-y-16">
                 <div class="grid md:grid-cols-2 gap-8">
                     <div
-                        class="flex items-center gap-6 p-8 bg-card rounded-xl border border-border/20 hover:border-primary transition-colors">
+                        class="flex items-center gap-6 p-8 bg-card rounded-lg border border-border/20 hover:border-primary transition-colors">
                         <span class="text-primary font-black text-5xl">FSC</span>
                         <div>
-                            <h4 class="text-white font-bold uppercase text-sm tracking-widest">Estándar Global</h4>
-                            <p class="text-xs text-text-light leading-relaxed">Garantiza beneficios ambientales,
+                            <h4 class="text-white font-bold uppercase text-md tracking-widest">Estándar Global</h4>
+                            <p class="text-sm text-text-light leading-relaxed">Garantiza beneficios ambientales,
                                 sociales y económicos a largo plazo.</p>
                         </div>
                     </div>
                     <div
-                        class="flex items-center gap-6 p-8 bg-card rounded-xl border border-border/20 hover:border-primary transition-colors">
+                        class="flex items-center gap-6 p-8 bg-card rounded-lg border border-border/20 hover:border-primary transition-colors">
                         <span class="text-primary font-black text-5xl">PEFC</span>
                         <div>
-                            <h4 class="text-white font-bold uppercase text-sm tracking-widest">Alianza Sostenible</h4>
-                            <p class="text-xs text-text-light leading-relaxed">Asegura que los productos forestales
+                            <h4 class="text-white font-bold uppercase text-md tracking-widest">Alianza Sostenible</h4>
+                            <p class="text-sm text-text-light leading-relaxed">Asegura que los productos forestales
                                 provienen de fuentes controladas y sostenibles.</p>
                         </div>
                     </div>
                 </div>
 
-                <div
-                    class="bg-bg-light p-12 rounded-[2rem] border border-border/40 text-center relative overflow-hidden">
+                <div class="bg-bg-light p-12 rounded-lg border border-border/40 text-center relative overflow-hidden">
                     <div
                         class="absolute top-0 left-0 w-32 h-32 bg-primary/5 rounded-full -translate-x-1/2 -translate-y-1/2 blur-3xl">
                     </div>
@@ -308,23 +332,23 @@
                     <div class="grid grid-cols-2 md:grid-cols-4 gap-12 relative z-10">
                         <div>
                             <p class="text-primary font-bold text-3xl mb-1">2025</p>
-                            <div class="w-8 h-1 bg-primary mx-auto mb-2"></div>
-                            <p class="text-[10px] text-text-light uppercase font-bold">-80% Emisiones CO₂</p>
+                            <div class="w-8 h-1 bg-primary mx-auto mb-3"></div>
+                            <p class="text-lg text-text-light uppercase font-bold">-80% Emisiones CO₂</p>
                         </div>
                         <div>
                             <p class="text-primary font-bold text-3xl mb-1">2026</p>
-                            <div class="w-8 h-1 bg-primary mx-auto mb-2"></div>
-                            <p class="text-[10px] text-text-light uppercase font-bold">150k Árboles Nuevos</p>
+                            <div class="w-8 h-1 bg-primary mx-auto mb-3"></div>
+                            <p class="text-lg text-text-light uppercase font-bold">150k Árboles Nuevos</p>
                         </div>
                         <div>
                             <p class="text-primary font-bold text-3xl mb-1">2027</p>
-                            <div class="w-8 h-1 bg-primary mx-auto mb-2"></div>
-                            <p class="text-[10px] text-text-light uppercase font-bold">100% Energía Limpia</p>
+                            <div class="w-8 h-1 bg-primary mx-auto mb-3"></div>
+                            <p class="text-lg text-text-light uppercase font-bold">100% Energía Limpia</p>
                         </div>
                         <div>
                             <p class="text-white font-bold text-3xl mb-1 italic">2030</p>
-                            <div class="w-8 h-1 bg-white mx-auto mb-2"></div>
-                            <p class="text-[10px] text-primary uppercase font-bold tracking-widest italic">
+                            <div class="w-8 h-1 bg-white mx-auto mb-3"></div>
+                            <p class="text-lg text-primary uppercase font-bold tracking-widest italic">
                                 Carbono-Neutralidad</p>
                         </div>
                     </div>
@@ -339,11 +363,11 @@
                     <p class="text-text-light max-w-xl mx-auto italic">Uniendo fuerzas con empresas que comparten
                         nuestra visión de sostenibilidad y economía circular.</p>
                 </div>
- 
+
                 <div class="grid md:grid-cols-2 gap-8">
                     <!-- KÖR Card -->
                     <div
-                        class="bg-card p-10 rounded-xl border border-border/20 shadow-xl group hover:transform hover:-translate-y-1 transition-all duration-300">
+                        class="bg-card p-10 rounded-lg border border-border/20 shadow-xl group hover:transform hover:-translate-y-1 transition-all duration-300">
                         <div class="h-32 flex items-center justify-center mb-8 bg-bg-light/50 rounded-lg p-6">
                             <!-- Logo KÖR -->
                             <img src="/silvestra/src/assets/logo_KOR_1.png" alt="Logo KÖR"
@@ -355,10 +379,10 @@
                             diseño con madera certificada de nuestros bosques, garantizando la mínima huella ecológica.
                         </p>
                     </div>
- 
+
                     <!-- ReWOOD Card -->
                     <div
-                        class="bg-card p-10 rounded-xl border border-border/20 shadow-xl group hover:transform hover:-translate-y-1 transition-all duration-300">
+                        class="bg-card p-10 rounded-lg border border-border/20 shadow-xl group hover:transform hover:-translate-y-1 transition-all duration-300">
                         <div class="h-32 flex items-center justify-center mb-8 bg-bg-light/50 rounded-lg p-6">
                             <!-- Logo ReWOOD -->
                             <img src="/silvestra/src/assets/rewood_logo_2.png" alt="Logo ReWOOD"
@@ -374,23 +398,28 @@
                 </div>
             </section>
 
-            <section class="pt-12 pb-12 border-t border-border/10">
-                <p class="text-center text-[10px] uppercase tracking-[0.3em] text-text-light/40 mb-10">
+            <section
+                class="pt-12 pb-12 border border-border/50 hover:border-primary/20 rounded-lg bg-gradient-to-br from-bg-light to transparent">
+                <p class="text-center text-3xl font-headerText font-bold uppercase tracking-[0.3em] mb-20">
                     Garantía de calidad y compromiso institucional
                 </p>
-                <div
-                    class="flex flex-wrap justify-center items-center gap-12 md:gap-20 opacity-50 grayscale hover:grayscale-0 transition-all duration-700">
-                    <img src="/silvestra/src/assets/logo-fsc.jpg" alt="Logo FSC"
-                        class="h-10 md:h-14 w-auto object-contain">
-                    <img src="/silvestra/src/assets/logo-pefc.png" alt="Logo PEFC"
-                        class="h-10 md:h-14 w-auto object-contain">
-                    <img src="/silvestra/src/assets/logo-generalitat.png" alt="Colaborador Generalitat"
-                        class="h-8 md:h-12 w-auto object-contain">
-                    <img src="/silvestra/src/assets/logo-asenfo.png" alt="Gremio de la Madera"
-                        class="h-8 md:h-12 w-auto object-contain">
-                    <img src="/silvestra/src/assets/logo-iso.svg" alt="Certificación ISO"
-                        class="h-10 md:h-14 w-auto object-contain">
-                </div>
+                <div class="flex flex-wrap justify-center items-center gap-12 md:gap-20">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6tTEulIeFODZDFl_CJQFuKpNOQa007_7yAg&s"
+                        alt="Logo FSC"
+                        class="h-10 md:h-24 w-auto object-contain  grayscale hover:grayscale-0 transition-all duration-700 hover:brightness-150 hover:scale-105">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/PEFC_Logo.svg/1280px-PEFC_Logo.svg.png"
+                        alt="Logo PEFC"
+                        class="h-10 md:h-24 w-auto object-contain grayscale hover:grayscale-0 transition-all duration-700 hover:brightness-110 hover:scale-105">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRe6s8PSuJw0s2_Klo34fPNfEK55C0KMmsFyw&s"
+                        alt="Colaborador Generalitat"
+                        class="h-8 md:h-24 w-auto object-contain p-3 grayscale hover:grayscale-0 transition-all duration-700 hover:scale-105">
+                    <div class="flex flex-wrap justify-center items-center gap-12 md:gap-20 ">
+                        <img src="https://asemfo.org/wp-content/uploads/2021/03/ASEMFO_logo_2021.png"
+                            alt="Gremio de la Madera"
+                            class="h-8 md:h-24 w-auto object-contain hover:opacity-100 grayscale hover:grayscale-0 transition-all duration-700 hover:brightness-110 hover:scale-105">
+                        <img src="/src/assets/logo-iso.svg" alt="Certificación ISO"
+                            class="h-10 md:h-24 w-auto object-contain grayscale hover:grayscale-0 transition-all duration-700 hover:brightness-110 hover:scale-105">
+                    </div>
             </section>
         </div>
     </main>
@@ -402,7 +431,7 @@
             de origen ético.
         </p>
         <button
-            class="bg-bg-dark text-white font-bold px-10 py-4 rounded-full uppercase tracking-widest hover:scale-105 transition-transform">
+            class="bg-bg-dark text-white font-bold px-10 py-4 rounded-md uppercase tracking-widest hover:scale-105 transition-transform">
             Contáctanos ahora
         </button>
     </section>
@@ -424,7 +453,7 @@
                     <ul class="flex items-start justify-center flex-col gap-1 font-bodyText text-text-light">
                         <li class="mb-2 text-text">NAVEGACIÒN</li>
                         <li>
-							<a href="/silvestra/" class="transition-all duration-300 hover:text-primary">Inicio</a>
+                            <a href="/silvestra/" class="transition-all duration-300 hover:text-primary">Inicio</a>
                         </li>
                         <li>
                             <a href="/silvestra/src/pages/servicios.html"
