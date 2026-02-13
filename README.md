@@ -133,7 +133,12 @@ La aplicación es completamente responsiva:
 
 ISC
 
-## 👨‍💼 Autor
+## 👨‍💼 Autores
+
+**Karyoli Nieves:** [@nkaryoli](https://github.com/nkaryoli)
+**Marina Benach** [@BMarina4]([https://github.com/nkaryoli](https://github.com/BMarina4))
+**Victor Alcrudo** [@Krudoner]([https://github.com/nkaryoli](https://github.com/Krudoner))
+**Josep Fontanet** [@Nrk-92]([https://github.com/nkaryoli](https://github.com/Nrk-92))
 
 Proyecto desarrollado como parte del curso de Lenguaje de Marcas en MONLAU.
 
